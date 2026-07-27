@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message envoyé</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: #f9f9f9;
+        }
+        .success {
+            color: #00558c;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .message {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #00558c;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu mobile à ajouter ICI, juste après body -->
+    <div class="mobile-header">
+        <div class="logo">HURON</div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </div>
+    
+   <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Accueil</a>
+    <a href="expertise.html">Expertise</a>
+    <a href="industry.html">Solutions</a>
+    <a href="insights.html">Insights</a>
+    <a href="careers.html">Careers</a>
+    <a href="company/contact-us.html">Contact</a>
+   </div>
+    
+    <!-- Reste de ta page -->
+    <header class="site-header">...</header>
+
+
+
+
+
+    <div class="message">
+        <div class="success">✓ Merci !</div>
+        <p>Votre message a bien été envoyé.</p>
+        <p>Nous vous répondrons dans les plus brefs délais.</p>
+        <a href="contact-us.html">⬅ Retour au formulaire</a>
+    </div>
+
+
+
+  <script>
+function toggleMenu() {
+    var nav = document.getElementById('mobileNav');
+    nav.classList.toggle('active');
+}
+
+// Ferme le menu après avoir cliqué sur un lien
+document.querySelectorAll('.mobile-nav a').forEach(function(link) {
+    link.addEventListener('click', function() {
+        document.getElementById('mobileNav').classList.remove('active');
+    });
+});
+</script>
+
+
+
+
+</body>
+</html>

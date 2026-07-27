@@ -1,0 +1,6066 @@
+/* ============================================
+   FOND UNIQUE - TOUTES LES SECTIONS 🌿
+   ============================================ */
+
+html[lang="fr"] .hero,
+html[lang="fr"] .section--baraka,
+html[lang="fr"] .section--slides,
+html[lang="fr"] .section--insights,
+html[lang="fr"] .section--figures {
+    background: #F0F5EE;
+}
+
+/* --- SECTION COMMITMENT (plus foncée pour contraster) --- */
+html[lang="fr"] .section--commitment {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%);
+}
+
+
+
+
+/* ============================================
+   ÉTAPE 1 : HEADER - VERSION FRANÇAISE 🌿
+   ============================================ */
+
+/* --- HEADER DESKTOP --- */
+
+html[lang="fr"] .site-header {
+    background: linear-gradient(to right, #2C4A3B, #60476e, #67796c);
+}
+
+html[lang="fr"] .site-header * {
+    color: #E2D5B6;
+}
+
+html[lang="fr"] .site-header a {
+    color: #e4dbc5;
+}
+
+html[lang="fr"] .site-header a:hover {
+    color: #C9A96E;
+}
+
+html[lang="fr"] .site-header a.active {
+    color: #C9A96E;
+}
+
+/* --- BOUTON CONTACT DANS LE HEADER --- */
+
+
+.site-header__links-container a.contact-btn {
+    margin-left: auto;
+    background: linear-gradient(to right, #2C4A3B, #60476e) !important;
+    background-color: rgba(0, 0, 0, 0);
+    color: #c0bdb1 !important;
+    padding: 10px 25px ; 
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0 4px 25px rgba(253, 208, 23, 0.35);
+    border: 2px solid transparent;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+html[lang="fr"] .contact-btn:hover {
+    background-color: #5E8A6F;
+    color: #FFFFFF;
+}
+
+/* --- SÉLECTEUR DE LANGUE --- */
+html[lang="fr"] .lang-btn {
+    color: #E2D5B6;
+}
+
+html[lang="fr"] .lang-btn:hover {
+    color: #C9A96E;
+}
+
+html[lang="fr"] .lang-btn.active {
+    color: #C9A96E;
+    font-weight: 700;
+}
+
+/* --- HEADER MOBILE --- */
+html[lang="fr"] .mobile-header {
+    background-color: #1A2E24;
+}
+
+html[lang="fr"] .mobile-header * {
+    color: #E2D5B6;
+}
+
+html[lang="fr"] .hamburger {
+    color: #E2D5B6;
+}
+
+/* --- MENU MOBILE --- */
+html[lang="fr"] .mobile-nav {
+    background-color: #1A2E24;
+}
+
+html[lang="fr"] .mobile-nav a {
+    color: #E2D5B6;
+}
+
+html[lang="fr"] .mobile-nav a:hover,
+html[lang="fr"] .mobile-nav a.active {
+    color: #C9A96E;
+    background-color: rgba(123, 165, 140, 0.15);
+}
+
+/* --- BOUTON LANGUE MOBILE --- */
+html[lang="fr"] .mobile-lang-dropdown-btn {
+    color: #E2D5B6;
+    background-color: transparent;
+}
+
+html[lang="fr"] .mobile-lang-dropdown-content {
+    background-color: #1A2E24;
+    border: 1px solid rgba(123, 165, 140, 0.3);
+}
+
+html[lang="fr"] .mobile-lang-option {
+    color: #E2D5B6;
+}
+
+html[lang="fr"] .mobile-lang-option:hover {
+    background-color: rgba(123, 165, 140, 0.15);
+    color: #C9A96E;
+}
+
+
+/* ============================================
+   HEADER MOBILE - VERSION FRANÇAISE 🌿
+   Dégradé horizontal (version compacte)
+   ============================================ */
+
+   @media (max-width: 768px) {
+  .mobile-header .logo img {
+    margin-top: 5px;
+    margin-bottom: -7px;
+    margin-right: auto;
+    margin-left: 20px;
+    height: 45px;
+    width: auto;
+  }
+}
+
+/* --- HEADER MOBILE AVEC DÉGRADÉ --- */
+html[lang="fr"] .mobile-header {
+    background: linear-gradient(to right, #2C4A3B, #60476e, #67796c);
+}
+
+.mobile-header .hamburger:hover {
+  background: rgba(255, 254, 248, 0.349);
+  transform: rotate(90deg);
+  border-radius: 10px;
+}
+
+
+
+html[lang="fr"] .mobile-header a {
+    color: #e4dbc5 ;
+}
+
+html[lang="fr"] .mobile-header a:hover {
+    color: #C9A96E;
+}
+
+html[lang="fr"] .hamburger {
+    color: #E2D5B6;
+}
+
+/* --- MENU MOBILE AVEC DÉGRADÉ VERTICAL --- */
+html[lang="fr"] .mobile-nav {
+    background: linear-gradient(to bottom, #2C4A3B, #60476e, #67796c);
+}
+
+html[lang="fr"] .mobile-nav a {
+    color: #E2D5B6;
+}
+
+html[lang="fr"] .mobile-nav a:hover,
+html[lang="fr"] .mobile-nav a.active {
+    color: #C9A96E;
+    background-color: rgba(123, 165, 140, 0.15);
+}
+
+/* --- BOUTON LANGUE MOBILE --- */
+html[lang="fr"] .mobile-lang-dropdown-btn {
+    color: #E2D5B6;
+    background-color: transparent;
+}
+
+html[lang="fr"] .mobile-lang-dropdown-content {
+    background: linear-gradient(to bottom, #2C4A3B, #60476e);
+    border: 1px solid rgba(123, 165, 140, 0.3);
+}
+
+html[lang="fr"] .mobile-lang-option {
+    color: #E2D5B6;
+}
+
+html[lang="fr"] .mobile-lang-option:hover {
+    background-color: rgba(123, 165, 140, 0.15);
+    color: #C9A96E;
+}
+
+
+
+
+
+
+
+
+
+
+/* ============================================
+   HERO - HOME UNIQUEMENT 🌿
+   ============================================ */
+
+/* --- Overlay uniquement pour .hero--home --- */
+html[lang="fr"] .hero--home .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.5) 0%,
+        rgba(44, 74, 59, 0.4) 100%
+    ) !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 1 !important;
+}
+
+/* --- Contenu uniquement pour .hero--home --- */
+html[lang="fr"] .hero--home .hero__container {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+/* --- Image de fond uniquement pour .hero--home --- */
+html[lang="fr"] .hero--home {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+    min-height: 80vh !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+html[lang="fr"] .hero--home .hero__container {
+        top: 130px !important;
+        
+    }
+
+/* --- Titre --- */
+html[lang="fr"] .hero--home .hero__title {
+    color: #2C4A3B !important;
+    text-shadow: 0 2px 8px rgba(255, 255, 255, 0.3) !important;
+}
+
+/* --- Sous-titre --- */
+html[lang="fr"] .hero--home .hero__subtitle {
+    color: #4A6B5A !important;
+    text-shadow: 0 1px 4px rgba(255, 255, 255, 0.2) !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .hero--home .hero__btn {
+    background: linear-gradient(to right, #2C4A3B, #60476e) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+    border-radius: 5px;
+}
+
+html[lang="fr"] .hero--home .hero__btn:hover {
+    background: linear-gradient(to right, #60476e, #7BA58C) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+/* ============================================
+   HERO - HOME RESPONSIVE
+   ============================================ */
+/* --- MOBILE (max-width: 768px) --- */
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--home {    
+        top: -60px;
+        margin-bottom: -60px;    
+    }
+}
+
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--home .hero__container {
+        top: 220px !important;    
+    }
+}
+
+@media (max-width: 768px) {
+html[lang="fr"] .hero--home .hero__title {
+  margin-top: 50px;
+    }
+}
+
+
+
+
+
+/* ============================================
+   ÉTAPE 3 : BARAKA - COULEURS UNIQUEMENT 🌿
+   ============================================ */
+
+ html[lang="fr"] .section--baraka {
+  
+  
+  margin-top: 220px;
+}
+
+
+
+/* --- TITRE --- */
+html[lang="fr"] .section__title--baraka {
+    color: #2C4A3B;
+}
+
+/* --- IMAGE --- */
+html[lang="fr"] .baraka__img {
+    border-color: #B8CFB0;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15);
+}
+
+html[lang="fr"] .baraka__img:hover {
+    border-color: #7BA58C;
+    box-shadow: 0 12px 40px rgba(44, 74, 59, 0.25);
+}
+
+/* --- CARTES --- */
+html[lang="fr"] .baraka__card {
+    background-color: #FCFAF5;
+    border-color: #B8CFB0;
+    box-shadow: 0 4px 12px rgba(44, 74, 59, 0.08);
+}
+
+html[lang="fr"] .baraka__card:hover {
+    border-color: #7BA58C;
+    box-shadow: 0 6px 20px rgba(44, 74, 59, 0.15);
+    background-color: #F8FBF5;
+}
+
+/* --- TITRE DES CARTES --- */
+html[lang="fr"] .baraka__card-title {
+    color: #2C4A3B;
+}
+
+html[lang="fr"] .baraka__card:hover .baraka__card-title {
+    color: #60476e;
+}
+
+
+
+/* ============================================
+   SLIDE CARDS - COULEURS UNIQUEMENT 🌿
+   ============================================ */
+
+html[lang="fr"] .slideCard-content {
+    background: linear-gradient(
+        135deg,
+         rgba(96, 71, 110, 0.75) 0%,
+        rgba(44, 74, 59, 0.75) 100%
+    );
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 0 0 12px 12px;
+    backdrop-filter: blur(3px);
+    border-top: 2px solid rgba(201, 169, 110, 0.3);
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .slideCard-content h3 {
+    color: #FFFFFF;
+}
+
+html[lang="fr"] .slideCard-content span {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+html[lang="fr"] .slideCard-content .slideCard-link {
+    color: #C9A96E;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .slideCard-content .slideCard-link:hover {
+    color: #E2D5B6;
+}
+
+html[lang="fr"] .slideCard:hover .slideCard-content {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.85) 0%,
+        rgba(44, 74, 59, 0.85) 100%
+    );
+    border-top-color: #C9A96E;
+}
+
+
+
+/* ============================================
+   INSIGHTS - COULEURS UNIQUEMENT 🌿
+   ============================================ */
+
+/* --- SECTION --- */
+html[lang="fr"] .section--insights {
+    background: #F0F5EE;
+}
+
+/* --- TITRE --- */
+html[lang="fr"] .section__title--insights {
+    color: #2C4A3B;
+}
+
+/* --- CARTE INSIGHTS --- */
+html[lang="fr"] .insights__card {
+    background: #FCFAF5;
+    border: 1px solid #B8CFB0;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .insights__card:hover {
+    border-color: #7BA58C;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15);
+}
+
+/* --- CONTENU --- */
+html[lang="fr"] .insights__content {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.85) 0%,
+        rgba(44, 74, 59, 0.85) 100%
+    );
+    padding: 40px;
+}
+
+html[lang="fr"] .insights__title {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+/* --- IMAGE --- */
+html[lang="fr"] .insights__img {
+    border-radius: 12px 12px 12px 12px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/* ============================================
+   FIGURES - COULEURS UNIQUEMENT 🌿
+   ============================================ */
+
+/* --- SECTION --- */
+html[lang="fr"] .section--figures {
+    background: #F0F5EE;
+}
+
+/* --- TITRE --- */
+html[lang="fr"] .section__title--figures {
+    color: #2C4A3B;
+}
+
+/* --- ITEMS --- */
+html[lang="fr"] .figures__item {
+    background: #FCFAF5;
+    border: 1px solid #B8CFB0;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08);
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .figures__item:hover {
+    border-color: #7BA58C;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15);
+    transform: translateY(-4px);
+}
+
+/* --- NOMBRES --- */
+html[lang="fr"] .figures__number {
+    color: #60476e;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+/* --- LABELS --- */
+html[lang="fr"] .figures__label {
+    color: #4A6B5A;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+
+
+/* ============================================
+   FOOTER - COULEURS UNIQUEMENT 🌿
+   ============================================ */
+
+/* --- FOOTER --- */
+html[lang="fr"] .site-footer {
+    background: linear-gradient(135deg, #1A2E24 0%, #2C4A3B 100%);
+    border-top: 3px solid #60476e;
+    padding: 40px 0;
+}
+
+/* --- LIENS DU FOOTER --- */
+html[lang="fr"] .site-footer a {
+    color: #E2D5B6;
+    transition: color 0.3s ease;
+}
+
+html[lang="fr"] .site-footer a:hover {
+    color: #C9A96E;
+}
+
+/* --- ABOUT LINK --- */
+html[lang="fr"] .footer__about-link {
+    color: #E2D5B6;
+    font-weight: 500;
+}
+
+html[lang="fr"] .footer__about-link:hover {
+    color: #C9A96E;
+}
+
+/* --- ICÔNES SOCIALES --- */
+html[lang="fr"] .footer__social-link {
+    color: #E2D5B6;
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .footer__social-link:hover {
+    color: #C9A96E;
+    transform: translateY(-2px);
+}
+
+/* --- TEXTE SUPPLEMENTAIRE SI PRESENT --- */
+html[lang="fr"] .site-footer p,
+html[lang="fr"] .site-footer span,
+html[lang="fr"] .site-footer .footer__text {
+    color: #E2D5B6;
+}
+
+
+
+
+
+
+/* ============================================
+   CHATBOT - COULEURS UNIQUEMENT 🌿
+   ============================================ */
+
+/* --- BOUTON TOGGLE --- */
+html[lang="fr"] #chatbot-toggle {
+    background: linear-gradient(135deg, #60476e 0%, #2C4A3B 100%) !important;
+    box-shadow: 0 4px 20px rgba(96, 71, 110, 0.4) !important;
+    transition: all 0.3s ease !important;
+}
+
+html[lang="fr"] #chatbot-toggle:hover {
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 30px rgba(96, 71, 110, 0.5) !important;
+}
+
+/* --- CONTENEUR CHAT --- */
+html[lang="fr"] #chatbot-container {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    box-shadow: 0 8px 40px rgba(44, 74, 59, 0.25) !important;
+}
+
+/* --- HEADER CHAT --- */
+html[lang="fr"] #chat-header {
+    background: linear-gradient(135deg, #60476e 0%, #2C4A3B 100%) !important;
+    color: #E2D5B6 !important;
+    border-bottom: 2px solid #C9A96E !important;
+}
+
+/* --- MESSAGES --- */
+html[lang="fr"] #chat-messages {
+    background: #F0F5EE !important;
+}
+
+/* --- MESSAGE DE BIENVENUE --- */
+html[lang="fr"] #welcome-message {
+    background: linear-gradient(135deg, #60476e 0%, #2C4A3B 100%) !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 2px 8px rgba(44, 74, 59, 0.15) !important;
+}
+
+/* --- ZONE INPUT --- */
+html[lang="fr"] #chatbot-container > div:last-child {
+    border-top: 2px solid #B8CFB0 !important;
+    background: #FCFAF5 !important;
+}
+
+/* --- INPUT --- */
+html[lang="fr"] #chat-input {
+    border: 2px solid #B8CFB0 !important;
+    background: #FFFFFF !important;
+    color: #2C4A3B !important;
+    transition: border-color 0.3s ease !important;
+}
+
+html[lang="fr"] #chat-input:focus {
+    border-color: #60476e !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(96, 71, 110, 0.15) !important;
+}
+
+html[lang="fr"] #chat-input::placeholder {
+    color: #4A6B5A !important;
+    opacity: 0.6 !important;
+}
+
+/* --- BOUTON ENVOYER --- */
+html[lang="fr"] #chat-send {
+    background: linear-gradient(135deg, #60476e 0%, #2C4A3B 100%) !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 2px 10px rgba(96, 71, 110, 0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+html[lang="fr"] #chat-send:hover {
+    transform: scale(1.1) !important;
+    box-shadow: 0 4px 20px rgba(96, 71, 110, 0.4) !important;
+}
+
+/* --- MESSAGES UTILISATEUR --- */
+html[lang="fr"] #chat-messages .user-message {
+    background: linear-gradient(135deg, #60476e 0%, #2C4A3B 100%) !important;
+    color: #FFFFFF !important;
+    border-radius: 15px 15px 0 15px !important;
+    padding: 10px 15px !important;
+    margin-bottom: 10px !important;
+    max-width: 80% !important;
+    margin-left: auto !important;
+    display: inline-block !important;
+    box-shadow: 0 2px 8px rgba(44, 74, 59, 0.15) !important;
+}
+
+/* --- MESSAGES BOT --- */
+html[lang="fr"] #chat-messages .bot-message {
+    background: #FCFAF5 !important;
+    color: #2C4A3B !important;
+    border: 1px solid #B8CFB0 !important;
+    border-radius: 15px 15px 15px 0 !important;
+    padding: 10px 15px !important;
+    margin-bottom: 10px !important;
+    max-width: 80% !important;
+    display: inline-block !important;
+    box-shadow: 0 2px 8px rgba(44, 74, 59, 0.08) !important;
+}
+
+
+
+
+
+/* ============================================
+   PAGE INDUSTRY (SOLUTIONS) - COULEURS 🌿
+   ============================================ */
+
+/* --- SECTION HERO --- */
+html[lang="fr"] .hero--industry {
+    background-color: #F0F5EE;
+    position: relative;
+}
+
+
+
+/* --- OVERLAY --- */
+html[lang="fr"] .hero--industry .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.7) 0%,
+        rgba(44, 74, 59, 0.6) 100%
+    );
+}
+
+.hero--industry .hero__content {
+    margin-bottom: -50px;
+}
+
+html[lang="fr"] .hero__content {
+    top: -93px;
+}
+/* --- TITRE --- */
+html[lang="fr"] .hero--industry .hero__title {
+    color: #FFFFFF;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+/* --- SOUS-TITRE --- */
+html[lang="fr"] .hero--industry .hero__subtitle {
+    color: #E2D5B6;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+}
+
+
+/* ============================================
+   SACRED SOLUTIONS - COULEURS UNIQUEMENT 🌿
+   ============================================ */
+
+/* --- SECTION --- */
+html[lang="fr"] .section--sacred-solutions {
+    background: #F0F5EE;
+}
+
+/* --- TITRE --- */
+html[lang="fr"] .section__title--sacred {
+    color: #2C4A3B;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* --- CARTES --- */
+html[lang="fr"] .sacred-card {
+    background: #FCFAF5;
+    border: 1px solid #B8CFB0;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .sacred-card:hover {
+    border-color: #7BA58C;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15);
+    transform: translateY(-4px);
+}
+
+/* --- IMAGE WRAPPER --- */
+html[lang="fr"] .img-wrapper {
+    background: #E8EFE4;
+}
+
+html[lang="fr"] .img-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* --- TITRE SUR L'IMAGE --- */
+html[lang="fr"] .sacred-card__image h3 {
+    color: #FFFFFF;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* --- CONTENU --- */
+html[lang="fr"] .sacred-card__content {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.85) 0%,
+        rgba(44, 74, 59, 0.85) 100%
+    );
+    color: #FFFFFF;
+    padding: 20px;
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .sacred-card__content h3 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+html[lang="fr"] .sacred-card__content span {
+    color: rgba(255, 255, 255, 0.85);
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* --- LIEN --- */
+html[lang="fr"] .sacred-card__link {
+    color: #C9A96E;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .sacred-card__link:hover {
+    color: #E2D5B6;
+}
+
+/* --- EFFET AU SURVOL --- */
+html[lang="fr"] .sacred-card:hover .sacred-card__content {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.92) 0%,
+        rgba(44, 74, 59, 0.92) 100%
+    );
+}
+
+
+
+/* ============================================
+   TÉMOIGNAGES + CHIFFRES + CTA - COULEURS 🌿
+   ============================================ */
+
+/* --- SECTION --- */
+html[lang="fr"] .section--testimonials-cta {
+    background: #F0F5EE;
+    padding: 60px 0;
+}
+
+/* ===== TÉMOIGNAGES ===== */
+html[lang="fr"] .section__title--testimonials {
+    color: #2C4A3B;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+html[lang="fr"] .testimonial-card {
+    background: #FCFAF5;
+    border: 1px solid #B8CFB0;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08);
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .testimonial-card:hover {
+    border-color: #7BA58C;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15);
+    transform: translateY(-4px);
+}
+
+html[lang="fr"] .testimonial-card__quote {
+    color: #2C4A3B;
+    font-style: italic;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+html[lang="fr"] .testimonial-card__quote::before {
+    content: '"';
+    color: #60476e;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+html[lang="fr"] .testimonial-card__quote::after {
+    content: '"';
+    color: #60476e;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+html[lang="fr"] .testimonial-card__name {
+    color: #60476e;
+    font-weight: 700;
+}
+
+html[lang="fr"] .testimonial-card__location {
+    color: #4A6B5A;
+    font-size: 0.9rem;
+}
+
+/* ===== CHIFFRES CLÉS ===== */
+html[lang="fr"] .stats__container {
+    margin: 50px 0;
+}
+
+html[lang="fr"] .stats__item {
+    background: #FCFAF5;
+    border: 1px solid #B8CFB0;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08);
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .stats__item:hover {
+    border-color: #60476e;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15);
+    transform: translateY(-4px);
+}
+
+html[lang="fr"] .stats__number {
+    color: #60476e;
+    font-size: 2.8rem;
+    font-weight: 800;
+    display: block;
+    line-height: 1.2;
+}
+
+html[lang="fr"] .stats__label {
+    color: #2C4A3B;
+    font-size: 0.95rem;
+    font-weight: 500;
+    display: block;
+    margin-top: 8px;
+}
+
+/* ===== CTA CONSULTATION ===== */
+html[lang="fr"] .cta__container {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%);
+    border-radius: 16px;
+    padding: 50px 40px;
+    text-align: center;
+    box-shadow: 0 8px 40px rgba(44, 74, 59, 0.25);
+    margin-top: 40px;
+}
+
+html[lang="fr"] .cta__title {
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+html[lang="fr"] .cta__text {
+    color: #E2D5B6;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html[lang="fr"] .cta__btn {
+    background: #C9A96E !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 50px !important;
+    padding: 14px 40px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+}
+
+html[lang="fr"] .cta__btn:hover {
+    background: #B8954A !important;
+    transform: scale(1.05) !important;
+    box-shadow: 0 6px 25px rgba(201, 169, 110, 0.4) !important;
+}
+
+
+
+/* ============================================
+   PAGE EXPERTISE (MASTER) - COULEURS 🌿 DESKTOP
+   ============================================ */
+
+/* --- SECTION HERO --- */
+html[lang="fr"] .hero--expertise {
+    background-color: #F0F5EE;
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* --- OVERLAY --- */
+html[lang="fr"] .hero--expertise .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.75) 0%,
+        rgba(44, 74, 59, 0.7) 100%
+    );
+}
+
+/* --- LABEL --- */
+html[lang="fr"] .hero--expertise .hero__label {
+    color: #C9A96E;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+/* --- TITRE --- */
+html[lang="fr"] .hero--expertise .hero__title {
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* --- DIVISEUR --- */
+html[lang="fr"] .hero--expertise .hero__divider {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right, #C9A96E, #60476e);
+    margin: 20px auto;
+    border-radius: 2px;
+}
+
+/* --- SOUS-TITRE --- */
+html[lang="fr"] .hero--expertise .hero__subtitle {
+    color: #E2D5B6;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* --- CONTENU CENTRÉ --- */
+html[lang="fr"] .hero__content--center {
+    text-align: center;
+}
+
+
+/* ============================================
+   HERO EXPERTISE - RESPONSIVE
+   ============================================ */
+
+/* --- TABLEAU 768px --- */
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--expertise .hero__content--center {
+        top: -70px !important;
+        padding: 20px 18px;
+        border-radius: 12px;
+        background: rgba(0, 0, 0, 0.35);
+        backdrop-filter: blur(3px);
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    html[lang="fr"] .hero--expertise .hero__label {
+        font-size: 0.49rem;
+        letter-spacing: 1.5px;
+        margin-top: 55px;
+        margin-bottom: 19px;
+    }
+
+    html[lang="fr"] .hero__label {
+        margin-top: 25px !important;
+    }
+
+    html[lang="fr"] .hero--expertise .hero__divider {
+        width: 40px;
+        height: 2px;
+        margin-bottom: 14px;
+    }
+
+    html[lang="fr"] .hero--expertise .hero__title {
+        margin-top: 19px;
+        font-size: 1.4rem;
+    }
+
+    html[lang="fr"] .hero--expertise .hero__subtitle {
+        font-size: 0.75rem;
+        line-height: 1.5;
+    }
+}
+
+
+
+/* ============================================
+   SECTION WHO IS - COULEURS UNIQUEMENT 🌿
+   ============================================ */
+
+/* --- SECTION --- */
+html[lang="fr"] .section--who {
+    background: #F0F5EE;
+    padding: 80px 0;
+}
+
+/* --- LABEL --- */
+html[lang="fr"] .who__label {
+    color: #60476e;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* --- TITRE (sans shadow) --- */
+html[lang="fr"] .who__title {
+    color: #2C4A3B;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-shadow: none !important;
+}
+
+/* --- TEXTE --- */
+html[lang="fr"] .who__text {
+    color: #4A6B5A;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* --- BOUTON --- */
+html[lang="fr"] .who__btn {
+    background: linear-gradient(135deg, #60476e 0%, #2C4A3B 100%);
+    color: #FFFFFF !important;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+html[lang="fr"] .who__btn:hover {
+    background: linear-gradient(135deg, #7A5A8A 0%, #4A6B5A 100%);
+    color: #FFFFFF !important;
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(96, 71, 110, 0.3);
+}
+
+
+
+/* ============================================
+   SECTION HOW I HELP - COULEURS UNIQUEMENT 🌿
+   ============================================ */
+
+/* --- SECTION --- */
+html[lang="fr"] .section--how {
+    background: #F0F5EE;
+    padding: 80px 0;
+}
+
+/* --- TITRE --- */
+html[lang="fr"] .how__title {
+    color: #2C4A3B;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: none !important;
+}
+
+/* --- DIVISEUR --- */
+html[lang="fr"] .how__divider {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right, #60476e, #2C4A3B);
+    margin: 15px auto 40px;
+    border-radius: 2px;
+}
+
+/* --- CARTES --- */
+html[lang="fr"] .how__card {
+    background: #FCFAF5;
+    border: 1px solid #B8CFB0;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08);
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .how__card:hover {
+    border-color: #60476e;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15);
+    transform: translateY(-4px);
+}
+
+/* --- ICÔNE --- */
+html[lang="fr"] .how__card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* --- TITRE DE LA CARTE --- */
+html[lang="fr"] .how__card-title {
+    color: #2C4A3B;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+/* --- TEXTE DE LA CARTE --- */
+html[lang="fr"] .how__card-text {
+    color: #4A6B5A;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+
+
+/* ============================================
+   TESTIMONIALS CAROUSEL - COULEURS UNIQUEMENT 🌿
+   ============================================ */
+
+/* --- SECTION --- */
+html[lang="fr"] .section--testimonials {
+    background: #F0F5EE;
+    padding: 80px 0;
+}
+
+/* --- TITRE --- */
+html[lang="fr"] .testimonials__title {
+    color: #2C4A3B;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: none !important;
+}
+
+/* --- DIVISEUR --- */
+html[lang="fr"] .testimonials__divider {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right, #60476e, #2C4A3B);
+    margin: 15px auto 40px;
+    border-radius: 2px;
+}
+
+/* --- CARTE --- */
+html[lang="fr"] .testimonials__card {
+    background: #FCFAF5;
+    border: 1px solid #B8CFB0;
+    border-radius: 16px;
+    padding: 40px 30px 30px;
+    box-shadow: 0 4px 20px rgba(44, 74, 59, 0.08);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+html[lang="fr"] .testimonials__card:hover {
+    border-color: #60476e;
+    box-shadow: 0 8px 40px rgba(44, 74, 59, 0.15);
+    transform: translateY(-4px);
+}
+
+/* --- ICÔNE DE GUILMET --- */
+html[lang="fr"] .testimonials__quote-icon {
+    color: #60476e;
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 5px;
+    opacity: 0.3;
+}
+
+/* --- TEXTE --- */
+html[lang="fr"] .testimonials__text {
+    color: #2C4A3B;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    font-style: italic;
+}
+
+/* --- IMAGE --- */
+html[lang="fr"] .testimonials__image-wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 15px auto;
+    border: 3px solid #60476e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html[lang="fr"] .testimonials__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* --- NOM --- */
+html[lang="fr"] .testimonials__name {
+    color: #2C4A3B;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+/* --- RÔLE --- */
+html[lang="fr"] .testimonials__role {
+    color: #60476e;
+    font-size: 0.85rem;
+}
+
+/* --- ORNEMENT --- */
+html[lang="fr"] .testimonials__ornament {
+    color: #C9A96E;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin-top: 12px;
+}
+
+/* --- BOUTONS DE NAVIGATION --- */
+html[lang="fr"] .testimonials__btn {
+    background: #FCFAF5;
+    color: #60476e;
+    border: 2px solid #B8CFB0;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html[lang="fr"] .testimonials__btn:hover {
+    background: #60476e;
+    color: #FFFFFF;
+    border-color: #60476e;
+    transform: scale(1.05);
+}
+
+/* --- DOTS --- */
+html[lang="fr"] .testimonials__dot {
+    background: #B8CFB0;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .testimonials__dot.active {
+    background: #60476e;
+    width: 32px;
+    border-radius: 6px;
+}
+
+html[lang="fr"] .testimonials__dot:hover {
+    background: #7BA58C;
+}
+
+
+/* ============================================
+   SECTION LOVE PEACE SECURITY - COULEURS 🌿
+   ============================================ */
+
+/* --- SECTION --- */
+html[lang="fr"] .section--love {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%);
+    padding: 60px 0;
+    margin-bottom: 45px;
+}
+
+/* --- GRILLE --- */
+html[lang="fr"] .love__grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* --- GAUCHE --- */
+html[lang="fr"] .love__left {
+    flex: 1;
+}
+
+/* --- ICÔNE --- */
+html[lang="fr"] .love__icon {
+    color: #C9A96E;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+/* --- TITRE --- */
+html[lang="fr"] .love__title {
+    color: #FFFFFF;
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-shadow: none !important;
+}
+
+html[lang="fr"] .love__title-highlight {
+    color: #C9A96E;
+    font-weight: 700;
+}
+
+/* --- DIVISEUR --- */
+html[lang="fr"] .love__divider {
+    width: 60px;
+    height: 3px;
+    background: #C9A96E;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+/* --- DROITE --- */
+html[lang="fr"] .love__right {
+    flex: 1;
+}
+
+/* --- TEXTE --- */
+html[lang="fr"] .love__text {
+    color: #E2D5B6;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* --- BOUTON --- */
+html[lang="fr"] .love__btn {
+    background: #C9A96E;
+    color: #FFFFFF !important;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+html[lang="fr"] .love__btn:hover {
+    background: #B8954A;
+    color: #FFFFFF !important;
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(201, 169, 110, 0.4);
+}
+
+
+
+
+/* ============================================
+   HERO - GUIDE SPIRITUEL TRADITIONNEL 🌿
+   COULEURS UNIQUEMENT
+   ============================================ */
+
+/* --- SECTION HERO (garde l'image existante) --- */
+html[lang="fr"] .hero--guide {
+    background-color: #F0F5EE;
+    /* L'image reste définie dans le HTML */
+}
+
+/* --- OVERLAY (sans fond uni pour laisser voir l'image) --- */
+html[lang="fr"] .hero--guide .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.65) 0%,
+        rgba(44, 74, 59, 0.6) 100%
+    );
+}
+
+/* --- TITRE --- */
+html[lang="fr"] .hero__title--guide {
+    color: #FFFFFF;
+    text-shadow: none !important;
+}
+
+/* --- DIVISEUR --- */
+html[lang="fr"] .hero__divider--guide {
+    background: linear-gradient(to right, #C9A96E, #60476e);
+}
+
+/* --- SOUS-TITRE --- */
+html[lang="fr"] .hero__subtitle--guide {
+    color: #E2D5B6;
+    text-shadow: none !important;
+}
+
+
+/* ============================================
+   HERO - GUIDE SPIRITUEL TRADITIONNEL
+   RESPONSIVE
+   ============================================ */
+
+/* --- TABLEAU 768px --- */
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--guide {
+        min-height: 50vh;
+    }
+
+    html[lang="fr"] .hero__title--guide {
+        font-size: 2rem;
+        
+    }
+
+    html[lang="fr"] .hero__subtitle--guide {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    html[lang="fr"] .hero__divider--guide {
+        width: 60px;
+        height: 3px;
+    }
+
+    html[lang="fr"] .hero__content--guide {
+        padding: 30px 15px;
+    }
+}
+
+/* --- TABLEAU 600px --- */
+@media (max-width: 600px) {
+    html[lang="fr"] .hero--guide {
+        min-height: 40vh;
+    }
+
+    html[lang="fr"] .hero__title--guide {
+        font-size: 1.6rem;
+    }
+
+    html[lang="fr"] .hero__subtitle--guide {
+        font-size: 0.85rem;
+        letter-spacing: 0.8px;
+    }
+
+    html[lang="fr"] .hero__divider--guide {
+        width: 50px;
+        height: 3px;
+    }
+
+    html[lang="fr"] .hero__content--guide {
+        padding: 25px 12px;
+    }
+}
+
+/* --- TABLEAU 480px --- */
+@media (max-width: 480px) {
+    html[lang="fr"] .hero--guide {
+        min-height: 35vh;
+    }
+
+    html[lang="fr"] .hero__title--guide {
+        font-size: 1.3rem;
+    }
+
+    html[lang="fr"] .hero__subtitle--guide {
+        font-size: 0.7rem;
+        letter-spacing: 0.5px;
+    }
+
+    html[lang="fr"] .hero__divider--guide {
+        width: 40px;
+        height: 2px;
+        margin: 10px auto;
+    }
+
+    html[lang="fr"] .hero__content--guide {
+        padding: 20px 10px;
+    }
+}
+
+/* --- TABLEAU 400px --- */
+@media (max-width: 400px) {
+    html[lang="fr"] .hero--guide {
+        min-height: 30vh;
+    }
+
+    html[lang="fr"] .hero__title--guide {
+        font-size: 1.1rem;
+    }
+
+    html[lang="fr"] .hero__subtitle--guide {
+        font-size: 0.6rem;
+        letter-spacing: 0.3px;
+    }
+
+    html[lang="fr"] .hero__divider--guide {
+        width: 30px;
+        height: 2px;
+        margin: 8px auto;
+    }
+
+    html[lang="fr"] .hero__content--guide {
+        padding: 15px 8px;
+    }
+}
+
+
+
+/* ============================================
+   SECTION PROFIL - EXPERT PAGE 🌿
+   ============================================ */
+
+/* --- SECTION --- */
+html[lang="fr"] .section--profile {
+    background: #F0F5EE;
+    padding: 60px 0;
+}
+
+/* --- BLOCS --- */
+html[lang="fr"] .profile__block {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+html[lang="fr"] .profile__block--left .profile__image {
+    order: 1;
+}
+
+html[lang="fr"] .profile__block--left .profile__content {
+    order: 2;
+}
+
+html[lang="fr"] .profile__block--right .profile__image {
+    order: 2;
+}
+
+html[lang="fr"] .profile__block--right .profile__content {
+    order: 1;
+}
+
+/* --- IMAGE --- */
+html[lang="fr"] .profile__image {
+    flex: 1;
+}
+
+html[lang="fr"] .profile__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid #B8CFB0;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15);
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .profile__image img:hover {
+    border-color: #60476e;
+    box-shadow: 0 12px 40px rgba(44, 74, 59, 0.25);
+    transform: scale(1.01);
+}
+
+/* --- CONTENU --- */
+html[lang="fr"] .profile__content {
+    flex: 1;
+}
+
+/* --- BADGE --- */
+html[lang="fr"] .profile__badge {
+    color: #60476e;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* --- TITRE --- */
+html[lang="fr"] .profile__title {
+    color: #2C4A3B;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-shadow: 0 4px 30px rgba(46, 139, 87, 0.10);
+}
+
+/* --- DIVISEUR --- */
+html[lang="fr"] .profile__divider {
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(to right, #60476e, #2C4A3B);
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+/* --- TEXTE --- */
+html[lang="fr"] .profile__text {
+    color: #4A6B5A;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* --- LISTE --- */
+html[lang="fr"] .profile__list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 20px;
+}
+
+html[lang="fr"] .profile__list li {
+    color: #4A6B5A;
+    font-size: 1rem;
+    line-height: 1.8;
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+html[lang="fr"] .profile__list li::before {
+    content: "✦";
+    color: #60476e;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 992px) {
+    html[lang="fr"] .profile__block {
+        flex-direction: column !important;
+        gap: 30px;
+    }
+
+    html[lang="fr"] .profile__block--left .profile__image,
+    html[lang="fr"] .profile__block--left .profile__content,
+    html[lang="fr"] .profile__block--right .profile__image,
+    html[lang="fr"] .profile__block--right .profile__content {
+        order: unset;
+    }
+
+    html[lang="fr"] .profile__image {
+        width: 100%;
+    }
+
+    html[lang="fr"] .profile__title {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html[lang="fr"] .section--profile {
+        padding: 40px 0;
+    }
+
+    html[lang="fr"] .profile__block {
+        margin-bottom: 40px;
+        gap: 20px;
+    }
+
+    html[lang="fr"] .profile__title {
+        font-size: 1.3rem;
+    }
+
+    html[lang="fr"] .profile__text {
+        font-size: 0.9rem;
+    }
+
+    html[lang="fr"] .profile__list li {
+        font-size: 0.9rem;
+    }
+
+    html[lang="fr"] .profile__badge {
+        font-size: 0.7rem;
+    }
+
+    html[lang="fr"] .profile__divider {
+        width: 40px;
+        height: 2px;
+    }
+}
+
+@media (max-width: 480px) {
+    html[lang="fr"] .section--profile {
+        padding: 30px 0;
+    }
+
+    html[lang="fr"] .profile__block {
+        margin-bottom: 30px;
+        gap: 15px;
+    }
+
+    html[lang="fr"] .profile__title {
+        font-size: 1.1rem;
+    }
+
+    html[lang="fr"] .profile__text {
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    html[lang="fr"] .profile__list li {
+        font-size: 0.8rem;
+        padding-left: 20px;
+    }
+
+    html[lang="fr"] .profile__badge {
+        font-size: 0.6rem;
+        letter-spacing: 0.5px;
+    }
+
+    html[lang="fr"] .profile__divider {
+        width: 30px;
+        height: 2px;
+    }
+}
+
+
+
+/* ============================================
+   SECTION NOS QUALITÉS - COULEURS 🌿
+   ============================================ */
+
+/* --- SECTION --- */
+html[lang="fr"] .section--qualities {
+    background: #F0F5EE;
+    padding: 80px 0;
+}
+
+/* --- TITRE --- */
+html[lang="fr"] .qualities__title {
+    color: #2C4A3B;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: none !important;
+}
+
+/* --- DIVISEUR --- */
+html[lang="fr"] .qualities__divider {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right, #60476e, #2C4A3B);
+    margin: 15px auto 40px;
+    border-radius: 2px;
+}
+
+/* --- CARTES --- */
+html[lang="fr"] .quality__card {
+    background: #FCFAF5;
+    border: 1px solid #B8CFB0;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08);
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .quality__card:hover {
+    border-color: #60476e;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15);
+    transform: translateY(-4px);
+}
+
+/* --- ICÔNE --- */
+html[lang="fr"] .quality__icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* --- TITRE DE LA CARTE --- */
+html[lang="fr"] .quality__title {
+    color: #2C4A3B;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* --- TEXTE DE LA CARTE --- */
+html[lang="fr"] .quality__text {
+    color: #4A6B5A;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+
+
+/* ============================================
+   SECTION TIMELINE + QUOTE + CTA - COULEURS 🌿
+   ============================================ */
+
+/* --- SECTION --- */
+html[lang="fr"] .section--timeline {
+    background: #F0F5EE;
+    padding: 80px 0;
+}
+
+/* --- TITRE --- */
+html[lang="fr"] .timeline__title {
+    color: #2C4A3B;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: none !important;
+}
+
+/* --- DIVISEUR --- */
+html[lang="fr"] .timeline__divider {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right, #60476e, #2C4A3B);
+    margin: 15px auto 40px;
+    border-radius: 2px;
+}
+
+/* --- TIMELINE ITEMS --- */
+html[lang="fr"] .timeline__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #FCFAF5;
+    border: 1px solid #B8CFB0;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08);
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .timeline__item:hover {
+    border-color: #60476e;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15);
+    transform: translateX(5px);
+}
+
+/* --- ANNÉE --- */
+html[lang="fr"] .timeline__year {
+    color: #60476e;
+    font-size: 1.3rem;
+    font-weight: 800;
+    min-width: 80px;
+    flex-shrink: 0;
+}
+
+/* --- DOT --- */
+html[lang="fr"] .timeline__dot {
+    width: 12px;
+    height: 12px;
+    background: #60476e;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 8px;
+    border: 2px solid #B8CFB0;
+}
+
+/* --- CONTENU --- */
+html[lang="fr"] .timeline__content {
+    color: #4A6B5A;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* --- CITATION --- */
+html[lang="fr"] .timeline__quote {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%);
+    top: -70px;
+    padding: 40px 35px;
+    
+    box-shadow: 0 8px 40px rgba(44, 74, 59, 0.2);
+}
+
+html[lang="fr"] .timeline__quote-icon {
+    color: #C9A96E;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    opacity: 0.5;
+}
+
+html[lang="fr"] .timeline__quote-text {
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-style: italic;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+html[lang="fr"] .timeline__quote-author {
+    color: #E2D5B6;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* --- BOUTON CTA --- */
+html[lang="fr"] .timeline__cta {
+    text-align: center;
+}
+
+html[lang="fr"] .timeline__btn {
+    background: linear-gradient(135deg, #60476e 0%, #2C4A3B 100%);
+    color: #FFFFFF !important;
+    font-weight: 600;
+    padding: 14px 36px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+html[lang="fr"] .timeline__btn:hover {
+    background: linear-gradient(135deg, #7A5A8A 0%, #4A6B5A 100%);
+    color: #FFFFFF !important;
+    transform: scale(1.03);
+    box-shadow: 0 6px 25px rgba(96, 71, 110, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================
+   HERO - PAGE CONTACT - MODIFICATIONS 🌿
+   ============================================ */
+
+/* --- OVERLAY (couleur uniquement) --- */
+html[lang="fr"] .hero--contact .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.7) 0%,
+        rgba(44, 74, 59, 0.6) 100%
+    );
+    
+}
+
+
+/* --- TITRE (couleur uniquement) --- */
+html[lang="fr"] .hero__title--contact {
+    color: #FFFFFF;
+    text-shadow: none !important;
+}
+
+/* --- DIVISEUR (couleur uniquement) --- */
+html[lang="fr"] .hero__divider--contact {
+    background: linear-gradient(to right, #C9A96E, #60476e);
+}
+
+/* --- SOUS-TITRE (couleur uniquement) --- */
+html[lang="fr"] .hero__subtitle--contact {
+    color: #E2D5B6;
+    text-shadow: none !important;
+}
+
+
+
+
+
+/* ============================================
+   SECTION CONTACT FORM - COULEURS 🌿
+   ============================================ */
+
+/* --- SECTION --- */
+html[lang="fr"] .section--contact-form {
+    background: #F0F5EE;
+    padding: 80px 0;
+}
+
+/* --- WRAPPER --- */
+html[lang="fr"] .contact__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+/* --- FORMULAIRE --- */
+html[lang="fr"] .contact__form-bg {
+    border-radius: 16px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+html[lang="fr"] .contact__form-glass {
+    background: rgba(252, 250, 245, 0.92);
+    backdrop-filter: blur(8px);
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* --- TITRE FORMULAIRE --- */
+html[lang="fr"] .contact__form-title {
+    color: #2C4A3B;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-shadow: none !important;
+}
+
+/* --- CHAMPS --- */
+html[lang="fr"] .contact__label {
+    color: #2C4A3B;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+html[lang="fr"] .contact__input {
+    background: #FFFFFF;
+    border: 2px solid #B8CFB0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: #2C4A3B;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .contact__input:focus {
+    border-color: #60476e;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(96, 71, 110, 0.15);
+}
+
+html[lang="fr"] .contact__input::placeholder {
+    color: #B8CFB0;
+}
+
+/* --- ROW --- */
+html[lang="fr"] .contact__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* --- CHECKBOX --- */
+html[lang="fr"] .contact__checkbox {
+    margin: 20px 0;
+}
+
+html[lang="fr"] .contact__checkbox label {
+    color: #4A6B5A;
+}
+
+html[lang="fr"] .contact__checkbox a {
+    color: #60476e;
+}
+
+html[lang="fr"] .contact__checkbox a:hover {
+    color: #2C4A3B;
+}
+
+/* --- BOUTON ENVOI --- */
+html[lang="fr"] .contact__btn {
+    background: linear-gradient(135deg, #60476e 0%, #2C4A3B 100%);
+    color: #FFFFFF !important;
+    font-weight: 700;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+html[lang="fr"] .contact__btn:hover {
+    background: linear-gradient(135deg, #7A5A8A 0%, #4A6B5A 100%);
+    transform: scale(1.02);
+    box-shadow: 0 6px 25px rgba(96, 71, 110, 0.3);
+}
+
+/* --- INFOS CONTACT --- */
+html[lang="fr"] .contact__info-block {
+    background: #FCFAF5;
+    border: 1px solid #B8CFB0;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08);
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .contact__info-block:hover {
+    border-color: #60476e;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15);
+}
+
+html[lang="fr"] .contact__info-title {
+    color: #2C4A3B;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+html[lang="fr"] .contact__info-text {
+    color: #4A6B5A;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+html[lang="fr"] .contact__info-link {
+    color: #60476e;
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .contact__info-link:hover {
+    color: #2C4A3B;
+}
+
+/* --- MAP --- */
+html[lang="fr"] .contact__map {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid #B8CFB0;
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .contact__map:hover {
+    border-color: #60476e;
+}
+
+html[lang="fr"] .contact__map iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 992px) {
+    html[lang="fr"] .contact__wrapper {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    html[lang="fr"] .section--contact-form {
+        padding: 50px 0;
+    }
+
+    html[lang="fr"] .contact__form-glass {
+        padding: 25px;
+    }
+
+    html[lang="fr"] .contact__row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    html[lang="fr"] .contact__form-title {
+        font-size: 1.6rem;
+    }
+
+    html[lang="fr"] .contact__map iframe {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    html[lang="fr"] .contact__form-glass {
+        padding: 18px;
+    }
+
+    html[lang="fr"] .contact__form-title {
+        font-size: 1.3rem;
+    }
+
+    html[lang="fr"] .contact__btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+
+    html[lang="fr"] .contact__info-block {
+        padding: 15px;
+    }
+
+    html[lang="fr"] .contact__map iframe {
+        height: 150px;
+    }
+}
+
+
+
+/* ============================================
+   SECTION CTA FINALE - MODIFICATIONS 🌿
+   ============================================ */
+
+/* --- FOND DE LA SECTION AVEC DÉGRADÉ --- */
+html[lang="fr"] .section--cta-final {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%);
+    margin-bottom: 100px;
+    border-radius: 25px 25px;
+}
+
+/* --- BADGE --- */
+html[lang="fr"] .cta-final__badge {
+    color: #C9A96E;
+}
+
+/* --- TITRE --- */
+html[lang="fr"] .cta-final__title {
+    color: #FFFFFF;
+    text-shadow: none !important;
+}
+
+html[lang="fr"] .cta-final__title span {
+    color: #C9A96E;
+}
+
+/* --- DIVISEUR --- */
+html[lang="fr"] .cta-final__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E);
+}
+
+/* --- TEXTE --- */
+html[lang="fr"] .cta-final__text {
+    color: #E2D5B6;
+}
+
+/* --- BOUTON --- */
+html[lang="fr"] .cta-final__btn {
+    background: linear-gradient(135deg, #C9A96E 0%, #B8954A 100%);
+    color: #FFFFFF !important;
+    transition: all 0.3s ease;
+}
+
+html[lang="fr"] .cta-final__btn:hover {
+    background: linear-gradient(135deg, #B8954A 0%, #60476e 100%);
+    color: #FFFFFF !important;
+    transform: scale(1.02);
+    box-shadow: 0 6px 25px rgba(96, 71, 110, 0.4);
+}
+
+/* --- ORNEMENTS DOTS --- */
+html[lang="fr"] .cta-final__ornament-dot {
+    background: #60476e;
+}
+
+html[lang="fr"] .cta-final__ornament-dot:nth-child(2) {
+    background: #C9A96E;
+}
+
+html[lang="fr"] .cta-final__ornament-dot:nth-child(3) {
+    background: #60476e;
+}
+
+
+
+
+
+/* ========================================================================
+   SOUS PAGE DE SERVICES 🌿
+   ======================================================================== */
+
+/* ============================================
+   HERO - BREAKING CURSES - ALIGNEMENT 🌿
+   ============================================ */
+
+/* --- Image et overlay sur toute la largeur --- */
+html[lang="fr"] .hero--curses {
+    background-size: 100% 100% !important;  /* L'image s'étire pour remplir */
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    min-height: 60vh !important;
+    width: 100% !important;
+    position: relative !important;
+}
+
+/* --- Overlay couvre toute la section --- */
+html[lang="fr"] .hero--curses .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.65) 0%,
+        rgba(44, 74, 59, 0.55) 100%
+    ) !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 1 !important;
+}
+
+/* --- Contenu --- */
+html[lang="fr"] .hero--curses .hero__container {
+    position: relative !important;
+    z-index: 2 !important;
+    width: 100% !important;
+    top: 120px !important;
+}
+
+
+
+
+/* ============================================
+   SECTION BREAKING THE INVISIBLE CHAINS 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--chains {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .chains__title {
+    color: #2C4A3B !important;
+}
+
+html[lang="fr"] .chains__title span {
+    color: #60476e !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .chains__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .chains__text {
+    color: #4A6B5A !important;
+}
+
+html[lang="fr"] .chains__text--highlight {
+    color: #2C4A3B !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .chains__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 32px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+    display: inline-block !important;
+}
+
+html[lang="fr"] .chains__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+/* --- CTA --- */
+html[lang="fr"] .chains__cta {
+    text-align: center !important;
+    margin-top: 30px !important;
+}
+
+
+
+/* ============================================
+   SECTION QUI JE SERS (BRISER LES MALÉDICTIONS) 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--serve-curses {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .serve-curses__title {
+    color: #2C4A3B !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .serve-curses__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Liste --- */
+html[lang="fr"] .serve-curses__list li {
+    color: #4A6B5A !important;
+    border-bottom: 1px solid #B8CFB0 !important;
+}
+
+html[lang="fr"] .serve-curses__list li::before {
+    color: #60476e !important;
+}
+
+/* --- Carte --- */
+html[lang="fr"] .serve-curses__card {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08) !important;
+}
+
+html[lang="fr"] .serve-curses__card:hover {
+    border-color: #7BA58C !important;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15) !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .serve-curses__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+}
+
+html[lang="fr"] .serve-curses__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+}
+
+
+
+
+
+
+/* ============================================
+   SECTION BREAKING CURSES CARDS - COULEURS 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--curses-cards {
+    background: #F0F5EE !important;
+}
+
+/* --- Cartes --- */
+html[lang="fr"] .curses-card {
+    background: #FCFAF5 !important;
+    border: 2px solid #B8CFB0 !important;
+    box-shadow: 0 4px 20px rgba(44, 74, 59, 0.08) !important;
+    border-radius: 12px;
+}
+
+html[lang="fr"] .curses-card:hover {
+    border-color: #60476e !important;
+    box-shadow: 0 12px 40px rgba(44, 74, 59, 0.15) !important;
+}
+
+/* --- Body --- */
+html[lang="fr"] .curses-card__body {
+    background: #FCFAF5 !important;
+}
+
+html[lang="fr"] .curses-card {
+    margin-left: -2.5px !important;
+    margin-right: -2.5px !important;
+    width: auto !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .curses-card__title {
+    color: #2C4A3B !important;
+    
+}
+
+/* --- Texte --- */
+html[lang="fr"] .curses-card__text {
+    color: #4A6B5A !important;
+}
+
+html[lang="fr"] .curses-card__text strong {
+    color: #60476e !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .curses-card__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.25) !important;
+}
+
+html[lang="fr"] .curses-card__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.35) !important;
+}
+
+
+/* ============================================
+   BREAKING CURSES CARDS - CORRECTION 🌿
+   ============================================ */
+
+/* --- Carte avec plus d'espace --- */
+html[lang="fr"] .curses-card {
+    margin: 0 10px !important;
+    padding: 0 !important;
+    overflow: visible !important;
+}
+
+/* --- Plus d'espace pour le body --- */
+html[lang="fr"] .curses-card__body {
+    padding: 35px 35px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* ============================================
+   HERO - CHILDREN'S SPIRITUAL CLEANSING 🌿
+   ============================================ */
+
+   html[lang="fr"] .hero--children  {
+    background-size: 100% 100% !important;  /* L'image s'étire pour remplir */
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    min-height: 60vh !important;
+    width: 100% !important;
+    position: relative !important;
+    top: -100px;
+    margin-bottom: 140px;
+}
+
+/* --- Overlay --- */
+html[lang="fr"] .hero--children .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.6) 0%,
+        rgba(44, 74, 59, 0.5) 100%
+    ) !important;
+}
+
+html[lang="fr"] .hero--children .hero__content--center {
+    padding: 10px 16px !important;      /* Padding réduit de 20% */
+    margin: 0 auto !important;
+    max-width: 80% !important;          /* Largeur réduite de 20% */
+    border-radius: 15px !important;      /* Rayon réduit de 20% */
+    transform: scale(0.9) !important;   /* Réduction globale de 20% */
+    top: -115px;
+}
+
+/* --- Label --- */
+html[lang="fr"] .hero--children .hero__label {
+    color: #C9A96E !important;
+    text-shadow: none !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .hero--children .hero__title--children {
+    color: #FFFFFF !important;
+    text-shadow: none !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .hero--children .hero__divider--children {
+    background: linear-gradient(to right, #C9A96E, #60476e) !important;
+}
+
+/* --- Sous-titre --- */
+html[lang="fr"] .hero--children .hero__subtitle--children {
+    color: #E2D5B6 !important;
+    text-shadow: none !important;
+}
+
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--children {
+        margin-bottom:130px;
+    }
+
+    html[lang="fr"] .hero__content--center{
+        margin-top: 10px !important;
+    }
+
+    html[lang="fr"] .hero--children .hero__content--center {
+    
+    
+    top: -185px !important;
+    }
+}
+
+
+/* ============================================
+   SECTION PROTECTING YOUR CHILD 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--protect-child {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .protect-child__title {
+    color: #2C4A3B !important;
+}
+
+html[lang="fr"] .protect-child__title span {
+    color: #60476e !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .protect-child__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .protect-child__text {
+    color: #4A6B5A !important;
+}
+
+html[lang="fr"] .protect-child__text--highlight {
+    color: #2C4A3B !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .protect-child__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 32px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+    display: inline-block !important;
+}
+
+html[lang="fr"] .protect-child__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+/* --- CTA --- */
+html[lang="fr"] .protect-child__cta {
+    text-align: center !important;
+    margin-top: 30px !important;
+}
+
+
+/* ============================================
+   SECTION CHILDREN'S SPIRITUAL CLEANSING CARDS 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--children-cards {
+    background: #F0F5EE !important;
+}
+
+/* --- Cartes --- */
+html[lang="fr"] .children-card {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08) !important;
+    overflow: hidden !important;
+    transition: all 0.3s ease !important;
+    margin-bottom: 30px !important;
+}
+
+html[lang="fr"] .children-card:hover {
+    border-color: #7BA58C !important;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15) !important;
+    transform: translateY(-4px) !important;
+}
+
+/* --- Image --- */
+/* --- Image agrandie avec marge --- */
+html[lang="fr"] .children-card__image {
+    width: auto !important;
+    height: 100% !important;
+    min-height: 400px !important;
+    max-height: 500px !important;
+    display: block !important;
+    object-fit: cover !important;
+    
+}
+
+/* --- Body --- */
+html[lang="fr"] .children-card__body {
+    padding: 25px !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .children-card__title {
+    color: #2C4A3B !important;
+    font-weight: 700 !important;
+    margin-bottom: 15px !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .children-card__text {
+    color: #4A6B5A !important;
+    margin-bottom: 10px !important;
+}
+
+html[lang="fr"] .children-card__text strong {
+    color: #60476e !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .children-card__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 10px 24px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    display: inline-block !important;
+    margin-top: 15px !important;
+}
+
+html[lang="fr"] .children-card__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    color: #FFFFFF !important;
+}
+
+
+/* ============================================
+   SECTION JOIN OUR TEAM 🌿
+   ============================================ */
+
+
+/* --- Fond de la section en dégradé --- */
+html[lang="fr"] .section--join-team {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    top: 10px !important;
+    margin-bottom: 155px;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .join-team__title {
+    color: #FFFFFF !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .join-team__divider {
+    background: linear-gradient(to right, #C9A96E, #E2D5B6) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .join-team__text {
+    color: #E2D5B6 !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .join-team__btn {
+    background: linear-gradient(135deg, #C9A96E 0%, #B8954A 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 28px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(201, 169, 110, 0.3) !important;
+    display: inline-block !important;
+}
+
+html[lang="fr"] .join-team__btn:hover {
+    background: linear-gradient(135deg, #B8954A 0%, #60476e 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(201, 169, 110, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+
+
+
+
+
+
+/* ============================================
+   HERO - CLEANSING PROTECTION 🌿
+   ============================================ */
+
+/* --- Image de fond (correction double) --- */
+html[lang="fr"] .hero--cleansing {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    min-height: 60vh !important;
+    position: relative !important;
+    top: -150px;
+}
+
+/* --- Overlay (couleurs) --- */
+html[lang="fr"] .hero--cleansing .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.6) 0%,
+        rgba(44, 74, 59, 0.5) 100%
+    ) !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 1 !important;
+}
+
+/* --- Contenu --- */
+html[lang="fr"] .hero--cleansing .hero__container {
+    position: relative !important;
+    z-index: 2 !important;
+    top: 180px;
+}
+
+/* --- Label --- */
+html[lang="fr"] .hero--cleansing .hero__label {
+    color: #C9A96E !important;
+    text-shadow: none !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .hero--cleansing .hero__title--cleansing {
+    color: #FFFFFF !important;
+    text-shadow: none !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .hero--cleansing .hero__divider--cleansing {
+    background: linear-gradient(to right, #C9A96E, #60476e) !important;
+}
+
+/* --- Sous-titre --- */
+html[lang="fr"] .hero--cleansing .hero__subtitle--cleansing {
+    color: #E2D5B6 !important;
+    text-shadow: none !important;
+}
+
+
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+/* --- Tablette (max-width: 992px) --- */
+@media (max-width: 992px) {
+    html[lang="fr"] .hero--cleansing {
+        top: -70px !important;
+        margin-bottom: 50px;
+        min-height: 50vh !important;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__title--cleansing {
+        font-size: 2.5rem !important;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__subtitle--cleansing {
+        font-size: 1rem !important;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__divider--cleansing {
+        width: 60px !important;
+        height: 3px !important;
+    }
+}
+
+/* --- Mobile (max-width: 768px) --- */
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--cleansing {
+        top: -70px !important;
+        margin-bottom: 50px;
+        min-height: 40vh !important;
+        background-position: center 30% !important;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(96, 71, 110, 0.7) 0%,
+            rgba(44, 74, 59, 0.6) 100%
+        ) !important;
+    }
+
+        /* --- Contenu --- */
+    html[lang="fr"] .hero--cleansing .hero__container {
+        padding: 20px 0 !important;
+        min-height: auto !important;
+        top: 20px;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__label {
+        font-size: 0.7rem !important;
+        margin-top: 5px !important;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__title--cleansing {
+        font-size: 2rem !important;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__subtitle--cleansing {
+        font-size: 0.85rem !important;
+        padding: 0 -20px !important;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__divider--cleansing {
+        width: 50px !important;
+        height: 3px !important;
+    }
+}
+
+/* --- Petit mobile (max-width: 480px) --- */
+@media (max-width: 480px) {
+    html[lang="fr"] .hero--cleansing {
+        top: -60px !important;
+        min-height: 35vh !important;
+        background-position: center 25% !important;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(96, 71, 110, 0.75) 0%,
+            rgba(44, 74, 59, 0.65) 100%
+        ) !important;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__label {
+        font-size: 0.6rem !important;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__title--cleansing {
+        font-size: 1.5rem !important;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__subtitle--cleansing {
+        font-size: 0.7rem !important;
+        padding: 0 10px !important;
+    }
+
+    html[lang="fr"] .hero--cleansing .hero__divider--cleansing {
+        width: 40px !important;
+        height: 2px !important;
+    }
+}
+
+
+/* ============================================
+   SECTION WHO I SERVE (NEGATIVE ENERGY) - ALIGNEMENT 🌿
+   ============================================ */
+
+/* --- Grille alignée en haut --- */
+html[lang="fr"] .serve-negative__grid {
+    display: flex !important;
+    align-items: flex-start !important;  /* Aligne en haut */
+    gap: 40px !important;
+}
+
+/* --- Gauche --- */
+html[lang="fr"] .serve-negative__left {
+    flex: 1 !important;
+}
+
+/* --- Droite --- */
+html[lang="fr"] .serve-negative__right {
+    flex: 1 !important;
+}
+
+/* --- Carte --- */
+html[lang="fr"] .serve-negative__card {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08) !important;
+    padding: 20px !important;
+    text-align: center !important;
+    transition: all 0.3s ease !important;
+}
+
+/* --- Image --- */
+html[lang="fr"] .serve-negative__image-wrapper {
+    margin-bottom: 15px !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .serve-negative__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 28px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+    display: inline-block !important;
+    margin-top: 15px !important;
+}
+
+html[lang="fr"] .serve-negative__image {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 8px !important;
+    display: block !important;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    html[lang="fr"] .serve-negative__grid {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    
+    html[lang="fr"] .serve-negative__left,
+    html[lang="fr"] .serve-negative__right {
+        width: 100% !important;
+    }
+}
+
+
+
+/* ============================================
+   SECTION RESTORING PEACE 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--peace {
+    background: #F0F5EE !important;
+    top: -30px;
+}
+
+/* --- Ornement --- */
+html[lang="fr"] .peace__ornament {
+    color: #C9A96E !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .peace__title {
+    color: #2C4A3B !important;
+}
+
+html[lang="fr"] .peace__title span {
+    color: #60476e !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .peace__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .peace__text {
+    color: #4A6B5A !important;
+}
+
+html[lang="fr"] .peace__text--highlight {
+    color: #2C4A3B !important;
+}
+
+/* --- Séparateur --- */
+html[lang="fr"] .peace__separator {
+    color: #B8CFB0 !important;
+}
+
+/* --- Features (cartes) --- */
+html[lang="fr"] .peace__feature {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    border-radius: 12px !important;
+    padding: 25px 20px !important;
+    text-align: center !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08) !important;
+}
+
+html[lang="fr"] .peace__feature:hover {
+    border-color: #7BA58C !important;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15) !important;
+    transform: translateY(-4px) !important;
+}
+
+/* --- Icônes --- */
+html[lang="fr"] .peace__feature-icon {
+    font-size: 2.5rem !important;
+    margin-bottom: 10px !important;
+    display: block !important;
+}
+
+/* --- Titre des features --- */
+html[lang="fr"] .peace__feature-title {
+    color: #2C4A3B !important;
+    font-weight: 700 !important;
+}
+
+/* --- Texte des features --- */
+html[lang="fr"] .peace__feature-text {
+    color: #4A6B5A !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .peace__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 32px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+    display: inline-block !important;
+}
+
+html[lang="fr"] .peace__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+/* --- CTA --- */
+html[lang="fr"] .peace__cta {
+    text-align: center !important;
+    margin-top: 40px !important;
+}
+
+
+/* ============================================
+   SECTION PATH SLIDER 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--path-slider {
+    background: #F0F5EE !important;
+    margin-bottom: 70px;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .path-slider__title {
+    color: #2C4A3B !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .path-slider__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- SLIDE ITEM --- */
+html[lang="fr"] .path-slider__item {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08) !important;
+    overflow: hidden !important;
+    transition: all 0.3s ease !important;
+}
+
+html[lang="fr"] .path-slider__item:hover {
+    border-color: #7BA58C !important;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15) !important;
+}
+
+/* --- Image --- */
+html[lang="fr"] .path-slider__image {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
+
+/* --- Body --- */
+html[lang="fr"] .path-slider__body {
+    padding: 25px !important;
+}
+
+/* --- Titre de l'item --- */
+html[lang="fr"] .path-slider__title-item {
+    color: #2C4A3B !important;
+    font-weight: 700 !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .path-slider__text {
+    color: #4A6B5A !important;
+}
+
+html[lang="fr"] .path-slider__text strong {
+    color: #60476e !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .path-slider__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 10px 24px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    display: inline-block !important;
+    margin-top: 15px !important;
+}
+
+html[lang="fr"] .path-slider__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    color: #FFFFFF !important;
+}
+
+/* --- Controls --- */
+html[lang="fr"] .path-slider__btn-prev,
+html[lang="fr"] .path-slider__btn-next {
+    background: #FCFAF5 !important;
+    color: #60476e !important;
+    border: 2px solid #B8CFB0 !important;
+    border-radius: 50% !important;
+    width: 44px !important;
+    height: 44px !important;
+    font-size: 1.5rem !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+}
+
+html[lang="fr"] .path-slider__btn-prev:hover,
+html[lang="fr"] .path-slider__btn-next:hover {
+    background: #60476e !important;
+    color: #FFFFFF !important;
+    border-color: #60476e !important;
+}
+
+/* --- Dots --- */
+html[lang="fr"] .path-slider__dots {
+    display: flex !important;
+    gap: 8px !important;
+}
+
+html[lang="fr"] .path-slider__dot {
+    background: #B8CFB0 !important;
+    border-radius: 50% !important;
+    width: 12px !important;
+    height: 12px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+}
+
+html[lang="fr"] .path-slider__dot.active {
+    background: #60476e !important;
+    width: 32px !important;
+    border-radius: 6px !important;
+}
+
+html[lang="fr"] .path-slider__dot:hover {
+    background: #7BA58C !important;
+}
+
+/* --- CTA Final --- */
+html[lang="fr"] .path-slider__cta {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    border-radius: 12px !important;
+    padding: 40px !important;
+    text-align: center !important;
+    margin-top: 40px !important;
+}
+
+html[lang="fr"] .path-slider__cta-title {
+    color: #FFFFFF !important;
+}
+
+html[lang="fr"] .path-slider__cta-divider {
+    background: linear-gradient(to right, #C9A96E, #E2D5B6) !important;
+    width: 60px !important;
+    height: 3px !important;
+    margin: 10px auto !important;
+}
+
+html[lang="fr"] .path-slider__cta-text {
+    color: #E2D5B6 !important;
+}
+
+/* ============================================
+   SUPPRIMER L'ÉLÉMENT FLOTTANT 🌿
+   ============================================ */
+
+html[lang="fr"] .section--path-slider::before,
+html[lang="fr"] .section--path-slider::after,
+html[lang="fr"] .path-slider__container::before,
+html[lang="fr"] .path-slider__container::after,
+html[lang="fr"] .path-slider__item::before,
+html[lang="fr"] .path-slider__item::after {
+    display: none !important;
+    content: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================
+   HERO - ANCESTRAL HEALING 🌿 education-research
+   ============================================ */
+
+/* --- Overlay --- */
+html[lang="fr"] .hero--ancestral .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.6) 0%,
+        rgba(44, 74, 59, 0.5) 100%
+    ) !important;
+}
+
+html[lang="fr"] .hero--ancestral .hero__content--center {
+  top: 70px !important;
+  
+}
+
+/* --- Label --- */
+html[lang="fr"] .hero--ancestral .hero__label {
+    color: #C9A96E !important;
+    text-shadow: none !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .hero--ancestral .hero__title--ancestral {
+    color: #FFFFFF !important;
+    text-shadow: none !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .hero--ancestral .hero__divider--ancestral {
+    background: linear-gradient(to right, #C9A96E, #60476e) !important;
+}
+
+/* --- Sous-titre --- */
+html[lang="fr"] .hero--ancestral .hero__subtitle--ancestral {
+    color: #E2D5B6 !important;
+    text-shadow: none !important;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+/* --- Tablette (max-width: 992px) --- */
+@media (max-width: 992px) {
+    html[lang="fr"] .hero--ancestral .hero__content--center {
+        min-height: 40vh !important;
+        padding: 30px 20px !important;
+    }
+}
+
+/* --- Mobile (max-width: 768px) --- */
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--ancestral .hero__content--center {
+        min-height: 35vh !important;
+        padding: 20px 15px !important;
+        top: 40px !important;
+    }
+}
+
+/* --- Petit mobile (max-width: 480px) --- */
+@media (max-width: 480px) {
+    html[lang="fr"] .hero--ancestral .hero__content--center {
+        min-height: 30vh !important;
+        padding: 15px 10px !important;
+        top: 35px !important;
+    }
+}
+
+
+/* ============================================
+   SECTION WHO I SERVE - ALIGNEMENT 🌿
+   ============================================ */
+
+/* --- Grille alignée en haut --- */
+html[lang="fr"] .serve__grid {
+    display: flex !important;
+    align-items: flex-start !important;  /* Aligne en haut */
+    gap: 40px !important;
+}
+
+/* --- Gauche --- */
+html[lang="fr"] .serve__left {
+    flex: 1 !important;
+}
+
+/* --- Droite --- */
+html[lang="fr"] .serve__right {
+    flex: 1 !important;
+}
+
+/* --- Carte --- */
+html[lang="fr"] .serve__card {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08) !important;
+    padding: 20px !important;
+    text-align: center !important;
+    transition: all 0.3s ease !important;
+}
+
+/* --- Image --- */
+html[lang="fr"] .serve__image-wrapper {
+    margin-bottom: 15px !important;
+}
+
+html[lang="fr"] .serve__image {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 8px !important;
+    display: block !important;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    html[lang="fr"] .serve__grid {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    
+    html[lang="fr"] .serve__left,
+    html[lang="fr"] .serve__right {
+        width: 100% !important;
+    }
+}
+
+
+/* ============================================
+   SECTION ACCORDÉON 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--accordion {
+    background: #F0F5EE !important;
+    margin-bottom: 70px;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .accordion__title {
+    color: #2C4A3B !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .accordion__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Trigger (en-tête de l'accordéon) --- */
+html[lang="fr"] .accordion__trigger {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    border-radius: 8px !important;
+    padding: 15px 20px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+}
+
+html[lang="fr"] .accordion__trigger:hover {
+    border-color: #7BA58C !important;
+}
+
+html[lang="fr"] .accordion__trigger.active {
+    border-color: #60476e !important;
+}
+
+/* --- Label --- */
+html[lang="fr"] .accordion__label {
+    color: #2C4A3B !important;
+    font-weight: 600 !important;
+}
+
+/* --- Icône --- */
+html[lang="fr"] .accordion__icon {
+    color: #60476e !important;
+}
+
+/* --- Flèche --- */
+html[lang="fr"] .accordion__arrow {
+    color: #60476e !important;
+}
+
+/* --- Contenu de l'accordéon --- */
+html[lang="fr"] .accordion__content {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    border-top: none !important;
+    border-radius: 0 0 8px 8px !important;
+    padding: 0 20px 20px 20px !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .accordion__text p {
+    color: #4A6B5A !important;
+}
+
+html[lang="fr"] .accordion__text strong {
+    color: #60476e !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .accordion__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 10px 24px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    display: inline-block !important;
+    margin-top: 15px !important;
+}
+
+html[lang="fr"] .accordion__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    color: #FFFFFF !important;
+}
+
+/* --- CTA en bas --- */
+html[lang="fr"] .accordion__cta {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    border-radius: 12px !important;
+    padding: 40px !important;
+    text-align: center !important;
+    margin-top: 40px !important;
+}
+
+html[lang="fr"] .accordion__cta-title {
+    color: #FFFFFF !important;
+}
+
+html[lang="fr"] .accordion__cta-divider {
+    background: linear-gradient(to right, #C9A96E, #E2D5B6) !important;
+    width: 60px !important;
+    height: 3px !important;
+    margin: 10px auto !important;
+}
+
+html[lang="fr"] .accordion__cta-text {
+    color: #E2D5B6 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================
+   HERO - FAMILY HARMONY 🌿
+   ============================================ */
+
+/* --- Image de fond (correction doublon) --- */
+html[lang="fr"] .hero--family {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    min-height: 60vh !important;
+    position: relative !important;
+    top: 110px;
+    margin-bottom: 140px;
+}
+
+/* --- Overlay --- */
+html[lang="fr"] .hero--family .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.6) 0%,
+        rgba(44, 74, 59, 0.5) 100%
+    ) !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 1 !important;
+}
+
+/* --- Contenu --- */
+html[lang="fr"] .hero--family .hero__container {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+/* --- Contenu centré --- */
+html[lang="fr"] .hero--family .hero__content--center {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    top: 80px;
+    height: 100% !important;
+    min-height: 50vh !important;
+    padding: 40px 20px !important;
+    margin: 0 auto !important;
+}
+
+/* --- Label --- */
+html[lang="fr"] .hero--family .hero__label {
+    color: #C9A96E !important;
+    text-shadow: none !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .hero--family .hero__title--family {
+    color: #FFFFFF !important;
+    text-shadow: none !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .hero--family .hero__divider--family {
+    background: linear-gradient(to right, #C9A96E, #60476e) !important;
+}
+
+/* --- Sous-titre --- */
+html[lang="fr"] .hero--family .hero__subtitle--family {
+    color: #E2D5B6 !important;
+    text-shadow: none !important;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+/* --- Tablette (max-width: 992px) --- */
+@media (max-width: 992px) {
+    html[lang="fr"] .hero--family {
+        min-height: 50vh !important;
+        top: -70px;
+        margin-bottom: -50px;
+    }
+
+    html[lang="fr"] .hero--family .hero__content--center {
+        min-height: 40vh !important;
+        padding: 30px 20px !important;
+    }
+
+    html[lang="fr"] .hero--family .hero__title--family {
+        font-size: 2.5rem !important;
+    }
+
+    html[lang="fr"] .hero--family .hero__subtitle--family {
+        font-size: 1rem !important;
+    }
+
+    html[lang="fr"] .hero--family .hero__divider--family {
+        width: 60px !important;
+        height: 3px !important;
+    }
+}
+
+/* --- Mobile (max-width: 768px) --- */
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--family {
+        min-height: 40vh !important;
+        background-position: center 30% !important;
+        top: -60px;
+        margin-bottom: -50px;
+    }
+}
+
+    html[lang="fr"] .hero--family .hero__overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(96, 71, 110, 0.7) 0%,
+            rgba(44, 74, 59, 0.6) 100%
+        ) !important;
+    }
+
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--family .hero__content--center {
+        min-height: 20vh !important;
+        padding: 22px 18px !important;
+        width: 105% !important;
+        max-width: 105% !important;
+        top: 80px !important;
+    }
+}
+
+/* --- Petit mobile (max-width: 480px) --- */
+@media (max-width: 480px) {
+    html[lang="fr"] .hero--family .hero__content--center {
+        min-height: 25vh !important;
+        padding: 20px 15px !important;
+        top: 0 !important;
+        transform: translateY(0) !important;
+        justify-content: center !important;
+    }
+
+
+    html[lang="fr"] .hero--family .hero__label {
+        font-size: 0.7rem !important;
+        margin-bottom: 5px !important;
+    }
+
+    html[lang="fr"] .hero--family .hero__title--family {
+        font-size: 2rem !important;
+        margin-bottom: 8px !important;
+    }
+
+    html[lang="fr"] .hero--family .hero__subtitle--family {
+        font-size: 0.85rem !important;
+        padding: 0 15px !important;
+        margin-bottom: 10px !important;
+    }
+
+    html[lang="fr"] .hero--family .hero__divider--family {
+        width: 50px !important;
+        height: 3px !important;
+        margin: 10px auto !important;
+    }
+}
+
+/* --- Petit mobile (max-width: 480px) --- */
+@media (max-width: 480px) {
+    html[lang="fr"] .hero--family {
+        min-height: 35vh !important;
+        background-position: center 25% !important;
+        top: -50px;
+        margin-bottom: -50px;
+    }
+
+    html[lang="fr"] .hero--family .hero__overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(96, 71, 110, 0.75) 0%,
+            rgba(44, 74, 59, 0.65) 100%
+        ) !important;
+    }
+
+    html[lang="fr"] .hero--family .hero__content--center {
+        min-height: 30vh !important;
+        padding: 15px 10px !important;
+    }
+
+    html[lang="fr"] .hero--family .hero__label {
+        font-size: 0.6rem !important;
+        margin-bottom: 4px !important;
+    }
+
+    html[lang="fr"] .hero--family .hero__title--family {
+        font-size: 1.5rem !important;
+        margin-bottom: 6px !important;
+    }
+
+    html[lang="fr"] .hero--family .hero__subtitle--family {
+        font-size: 0.7rem !important;
+        padding: 0 10px !important;
+        margin-bottom: 8px !important;
+    }
+
+    html[lang="fr"] .hero--family .hero__divider--family {
+        width: 40px !important;
+        height: 2px !important;
+        margin: 8px auto !important;
+    }
+}
+
+
+/* ============================================
+   SECTION RESTORING PEACE AT HOME FAMILY HARMONY 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--peace-home {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .peace-home__title {
+    color: #2C4A3B !important;
+}
+
+html[lang="fr"] .peace-home__title span {
+    color: #4A6B5A !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .peace-home__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .peace-home__text {
+    color: #4A6B5A !important;
+}
+
+html[lang="fr"] .peace-home__text--highlight {
+    color: #2C4A3B !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .peace-home__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 32px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+}
+
+html[lang="fr"] .peace-home__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+
+/* ============================================
+   BLOC 1 : MARITAL CONFLICTS 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--family-block--marital {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .family-block__title {
+    color: #2C4A3B !important;
+}
+
+html[lang="fr"] .family-block__title span {
+    color: #60476e !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .family-block__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Carte --- */
+html[lang="fr"] .family-block__card {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08) !important;
+    padding: 30px !important;
+}
+
+html[lang="fr"] .family-block__card:hover {
+    border-color: #7BA58C !important;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .family-block__text {
+    color: #4A6B5A !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .family-block__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 28px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+}
+
+html[lang="fr"] .family-block__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+
+/* ============================================
+   BLOCS FAMILY - COULEURS 🌿
+   ============================================ */
+
+/* --- BLOC 2 : Lost Love --- */
+html[lang="fr"] .section--family-block--lostlove {
+    background: #F0F5EE !important;
+}
+
+/* --- BLOC 3 : Wayward Children --- */
+html[lang="fr"] .section--family-block--children {
+    background: #F0F5EE !important;
+}
+
+/* --- BLOC 4 : Family Disputes --- */
+html[lang="fr"] .section--family-block--disputes {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .family-block__title {
+    color: #2C4A3B !important;
+}
+
+html[lang="fr"] .family-block__title span {
+    color: #60476e !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .family-block__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Carte --- */
+html[lang="fr"] .family-block__card {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08) !important;
+    padding: 30px !important;
+}
+
+html[lang="fr"] .family-block__card:hover {
+    border-color: #7BA58C !important;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .family-block__text {
+    color: #4A6B5A !important;
+}
+
+html[lang="fr"] .family-block__text strong {
+    color: #60476e !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .family-block__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 28px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+}
+
+html[lang="fr"] .family-block__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+
+/* ============================================
+   SECTION YOU ARE NOT ALONE 🌿
+   ============================================ */
+
+/* --- Fond de la section en dégradé --- */
+html[lang="fr"] .section--not-alone {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    margin-bottom: 140px;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .not-alone__title {
+    color: #FFFFFF !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .not-alone__divider {
+    background: linear-gradient(to right, #C9A96E, #E2D5B6) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .not-alone__text {
+    color: #E2D5B6 !important;
+}
+
+/* --- Bouton CTA (doré pour contraster sur fond foncé) --- */
+html[lang="fr"] .not-alone__btn {
+    background: linear-gradient(135deg, #C9A96E 0%, #B8954A 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 32px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(201, 169, 110, 0.3) !important;
+}
+
+html[lang="fr"] .not-alone__btn:hover {
+    background: linear-gradient(135deg, #B8954A 0%, #60476e 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(201, 169, 110, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+
+
+
+/* ============================================
+   HERO - FINANCIAL FREEDOM 🌿
+   ============================================ */
+
+/* --- Image de fond (augmentation de la hauteur) --- */
+html[lang="fr"] .hero--financial {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    min-height: calc(60vh + 60px) !important;  /* Augmenté de 60px */
+    position: relative !important;
+    padding-top: 305px !important;  /* Décale tout vers le bas */
+}
+
+/* --- Overlay (couvre toute l'image) --- */
+html[lang="fr"] .hero--financial .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.65) 0%,
+        rgba(44, 74, 59, 0.55) 100%
+    ) !important;
+    position: absolute !important;
+    top: 60px !important;  /* Commence 60px plus bas */
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: calc(100% - 60px) !important;  /* Hauteur réduite de 60px */
+    z-index: 1 !important;
+}
+
+/* --- Contenu --- */
+html[lang="fr"] .hero--financial .hero__container {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+html[lang="fr"] .hero--financial .hero__content--center {
+    top: 50px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    min-height: 50vh !important;
+    padding: 40px 20px !important;
+}
+
+/* --- Label --- */
+html[lang="fr"] .hero--financial .hero__label {
+    color: #C9A96E !important;
+    text-shadow: none !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .hero--financial .hero__title--financial {
+    color: #FFFFFF !important;
+    text-shadow: none !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .hero--financial .hero__divider--financial {
+    background: linear-gradient(to right, #C9A96E, #60476e) !important;
+}
+
+/* --- Sous-titre --- */
+html[lang="fr"] .hero--financial .hero__subtitle--financial {
+    color: #E2D5B6 !important;
+    text-shadow: none !important;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 992px) {
+    html[lang="fr"] .hero--financial {
+        min-height: 50vh !important;
+        background-position: center 65% !important;
+        padding-top: 105px !important
+    }
+
+    html[lang="fr"] .hero--financial .hero__content--center {
+        min-height: 40vh !important;
+        padding: 30px 20px !important;
+        left: -60px;
+    }
+
+    html[lang="fr"] .hero--financial .hero__title--financial {
+        font-size: 2.5rem !important;
+    }
+
+    html[lang="fr"] .hero--financial .hero__subtitle--financial {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--financial {
+        min-height: 40vh !important;
+        background-position: center 60% !important;
+        padding-top: 95px !important
+    }
+
+    html[lang="fr"] .hero--financial .hero__overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(96, 71, 110, 0.75) 0%,
+            rgba(44, 74, 59, 0.65) 100%
+        ) !important;
+    }
+
+    html[lang="fr"] .hero--financial .hero__content--center {
+        min-height: 35vh !important;
+        padding: 20px 15px !important;
+    }
+
+    html[lang="fr"] .hero--financial .hero__label {
+        font-size: 0.7rem !important;
+    }
+
+    html[lang="fr"] .hero--financial .hero__title--financial {
+        font-size: 2rem !important;
+    }
+
+    html[lang="fr"] .hero--financial .hero__subtitle--financial {
+        font-size: 0.85rem !important;
+        padding: 0 15px !important;
+    }
+
+    html[lang="fr"] .hero--financial .hero__divider--financial {
+        width: 50px !important;
+        height: 3px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    html[lang="fr"] .hero--financial {
+        min-height: 35vh !important;
+        background-position: center 55% !important;
+        padding-top: 85px !important
+    }
+
+    html[lang="fr"] .hero--financial .hero__overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(96, 71, 110, 0.8) 0%,
+            rgba(44, 74, 59, 0.7) 100%
+        ) !important;
+    }
+
+    html[lang="fr"] .hero--financial .hero__content--center {
+        min-height: 30vh !important;
+        padding: 15px 10px !important;
+    }
+
+    html[lang="fr"] .hero--financial .hero__label {
+        font-size: 0.55rem !important;
+    }
+
+    html[lang="fr"] .hero--financial .hero__title--financial {
+        font-size: 1.5rem !important;
+    }
+
+    html[lang="fr"] .hero--financial .hero__subtitle--financial {
+        font-size: 0.7rem !important;
+        padding: 0 10px !important;
+    }
+
+    html[lang="fr"] .hero--financial .hero__divider--financial {
+        width: 40px !important;
+        height: 2px !important;
+    }
+}
+
+/* ============================================
+   SECTION TURNING STRUGGLE INTO ABUNDANCE 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--abundance {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .abundance__title {
+    color: #2C4A3B !important;
+}
+
+html[lang="fr"] .abundance__title span {
+    color: #60476e !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .abundance__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .abundance__text {
+    color: #4A6B5A !important;
+}
+
+html[lang="fr"] .abundance__text--highlight {
+    color: #2C4A3B !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .abundance__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 32px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+    display: inline-block !important;
+}
+
+html[lang="fr"] .abundance__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+/* --- CTA --- */
+html[lang="fr"] .abundance__cta {
+    text-align: center !important;
+    margin-top: 30px !important;
+}
+
+
+/* ============================================
+   SECTION QUI JE SERS (LIBERTÉ FINANCIÈRE) 🌿
+   ============================================ */
+
+/* --- Grille alignée en haut --- */
+html[lang="fr"] .serve-financial__grid {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 40px !important;
+}
+
+/* --- Gauche --- */
+html[lang="fr"] .serve-financial__left {
+    flex: 1 !important;
+}
+
+/* --- Droite --- */
+html[lang="fr"] .serve-financial__right {
+    flex: 1 !important;
+}
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--serve-financial {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .serve-financial__title {
+    color: #2C4A3B !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .serve-financial__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Liste (correction des puces) --- */
+html[lang="fr"] .serve-financial__list {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+html[lang="fr"] .serve-financial__list li {
+    color: #4A6B5A !important;
+    padding: 12px 0 !important;
+    padding-left: 30px !important;
+    border-bottom: 1px solid #B8CFB0 !important;
+    font-size: 1rem !important;
+    position: relative !important;
+    line-height: 1.5 !important;
+}
+
+html[lang="fr"] .serve-financial__list li:last-child {
+    border-bottom: none !important;
+}
+
+html[lang="fr"] .serve-financial__list li::before {
+    content: "✦" !important;
+    color: #60476e !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    font-size: 1.2rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+
+/* --- Carte --- */
+html[lang="fr"] .serve-financial__card {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08) !important;
+    padding: 20px !important;
+    text-align: center !important;
+    transition: all 0.3s ease !important;
+}
+
+html[lang="fr"] .serve-financial__card:hover {
+    border-color: #7BA58C !important;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15) !important;
+}
+
+/* --- Image --- */
+html[lang="fr"] .serve-financial__image-wrapper {
+    margin-bottom: 15px !important;
+}
+
+html[lang="fr"] .serve-financial__image {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 8px !important;
+    display: block !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .serve-financial__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 28px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+    display: inline-block !important;
+    margin-top: 15px !important;
+}
+
+html[lang="fr"] .serve-financial__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    html[lang="fr"] .serve-financial__grid {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    
+    html[lang="fr"] .serve-financial__left,
+    html[lang="fr"] .serve-financial__right {
+        width: 100% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================
+   HERO - SACRED HERBALISM 🌿
+   ============================================ */
+
+/* --- Image de fond (correction doublon + padding top) --- */
+html[lang="fr"] .hero--herbalism {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    min-height: calc(60vh + 60px) !important;
+    position: relative !important;
+    padding-top: 200px !important;
+}
+
+/* --- Overlay (couvre toute l'image) --- */
+html[lang="fr"] .hero--herbalism .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.65) 0%,
+        rgba(44, 74, 59, 0.55) 100%
+    ) !important;
+    position: absolute !important;
+    top: 60px !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: calc(100% - 60px) !important;
+    z-index: 1 !important;
+}
+
+/* --- Contenu --- */
+html[lang="fr"] .hero--herbalism .hero__container {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+html[lang="fr"] .hero--herbalism .hero__content--center {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    min-height: 50vh !important;
+    padding: 40px 20px !important;
+    top: -30px;
+    left: -60px;
+}
+
+/* --- Label --- */
+html[lang="fr"] .hero--herbalism .hero__label {
+    color: #C9A96E !important;
+    text-shadow: none !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .hero--herbalism .hero__title--herbalism {
+    color: #FFFFFF !important;
+    text-shadow: none !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .hero--herbalism .hero__divider--herbalism {
+    background: linear-gradient(to right, #C9A96E, #60476e) !important;
+}
+
+/* --- Sous-titre --- */
+html[lang="fr"] .hero--herbalism .hero__subtitle--herbalism {
+    color: #E2D5B6 !important;
+    text-shadow: none !important;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 992px) {
+    html[lang="fr"] .hero--herbalism {
+        min-height: calc(50vh + 50px) !important;
+        padding-top: 50px !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__overlay {
+        top: 50px !important;
+        height: calc(100% - 50px) !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__content--center {
+        min-height: 40vh !important;
+        padding: 30px 20px !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__title--herbalism {
+        font-size: 2.5rem !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__subtitle--herbalism {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--herbalism {
+        min-height: calc(40vh + 40px) !important;
+        padding-top: 40px !important;
+        background-position: center 30% !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(96, 71, 110, 0.75) 0%,
+            rgba(44, 74, 59, 0.65) 100%
+        ) !important;
+        top: 40px !important;
+        height: calc(100% - 40px) !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__content--center {
+        min-height: 35vh !important;
+        padding: 20px 15px !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__label {
+        font-size: 0.7rem !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__title--herbalism {
+        font-size: 2rem !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__subtitle--herbalism {
+        font-size: 0.85rem !important;
+        padding: 0 15px !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__divider--herbalism {
+        width: 50px !important;
+        height: 3px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    html[lang="fr"] .hero--herbalism {
+        min-height: calc(35vh + 30px) !important;
+        padding-top: 30px !important;
+        background-position: center 25% !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(96, 71, 110, 0.8) 0%,
+            rgba(44, 74, 59, 0.7) 100%
+        ) !important;
+        top: 30px !important;
+        height: calc(100% - 30px) !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__content--center {
+        min-height: 30vh !important;
+        padding: 15px 10px !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__label {
+        font-size: 0.55rem !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__title--herbalism {
+        font-size: 1.5rem !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__subtitle--herbalism {
+        font-size: 0.7rem !important;
+        padding: 0 10px !important;
+    }
+
+    html[lang="fr"] .hero--herbalism .hero__divider--herbalism {
+        width: 40px !important;
+        height: 2px !important;
+    }
+}
+
+
+/* ============================================
+   SECTION THE PHARMACY OF OUR ANCESTORS 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--pharmacy {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .pharmacy__title {
+    color: #2C4A3B !important;
+}
+
+html[lang="fr"] .pharmacy__title span {
+    color: #60476e !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .pharmacy__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .pharmacy__text {
+    color: #4A6B5A !important;
+}
+
+html[lang="fr"] .pharmacy__text--highlight {
+    color: #2C4A3B !important;
+}
+
+/* --- Séparateur --- */
+html[lang="fr"] .pharmacy__separator {
+    color: #B8CFB0 !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .pharmacy__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 32px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+    display: inline-block !important;
+}
+
+html[lang="fr"] .pharmacy__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+/* --- CTA --- */
+html[lang="fr"] .pharmacy__cta {
+    text-align: center !important;
+    margin-top: 30px !important;
+}
+
+/* --- Nuage lumineux (supprimer si gênant) --- */
+html[lang="fr"] .cloud {
+    display: none !important;
+}
+
+/* ============================================
+   SECTION QUI JE SERS (HERBORISTERIE SACRÉE) 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--serve-herbalism {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .serve-herbalism__title {
+    color: #2C4A3B !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .serve-herbalism__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Liste --- */
+html[lang="fr"] .serve-herbalism__list li {
+    color: #4A6B5A !important;
+    border-bottom: 1px solid #B8CFB0 !important;
+}
+
+html[lang="fr"] .serve-herbalism__list li::before {
+    color: #60476e !important;
+}
+
+/* --- Survol liste --- */
+html[lang="fr"] .serve-herbalism__list li:hover {
+    color: #60476e !important;
+}
+
+html[lang="fr"] .serve-herbalism__list li:hover::before {
+    color: #C9A96E !important;
+}
+
+/* --- Carte --- */
+html[lang="fr"] .serve-herbalism__card {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08) !important;
+}
+
+html[lang="fr"] .serve-herbalism__card:hover {
+    border-color: #7BA58C !important;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15) !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .serve-herbalism__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+}
+
+html[lang="fr"] .serve-herbalism__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+}
+
+
+
+
+
+
+
+/* ============================================
+   SECTION HEALTH CARDS 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--health-cards {
+    background: #F0F5EE !important;
+    padding: 60px 15px !important;
+}
+
+/* --- Cartes --- */
+html[lang="fr"] .health-card {
+    background: #FCFAF5 !important;
+    border: 2px solid #B8CFB0 !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 20px rgba(44, 74, 59, 0.08) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease !important;
+    margin-bottom: 40px !important;
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+html[lang="fr"] .health-card:hover {
+    border-color: #60476e !important;
+    box-shadow: 0 12px 40px rgba(44, 74, 59, 0.15) !important;
+    transform: translateY(-6px) !important;
+}
+
+/* --- Image --- */
+html[lang="fr"] .health-card__media {
+    flex: 0 0 45% !important;
+    min-height: 320px !important;
+    overflow: hidden !important;
+    background: #E8EFE4 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html[lang="fr"] .health-card__image {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 320px !important;
+    max-height: 420px !important;
+    object-fit: cover !important;
+    display: block !important;
+    transition: transform 0.6s ease !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html[lang="fr"] .health-card:hover .health-card__image {
+    transform: scale(1.03) !important;
+}
+
+
+
+/* --- Body (texte) --- */
+html[lang="fr"] .health-card__body {
+    flex: 1 !important;
+    padding: 30px 35px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    background: #FCFAF5 !important;
+    gap: 8px !important;
+    min-height: 320px !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .health-card__title {
+    color: #2C4A3B !important;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 12px !important;
+    line-height: 1.3 !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .health-card__text {
+    color: #4A6B5A !important;
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 6px !important;
+}
+
+html[lang="fr"] .health-card__text strong {
+    color: #60476e !important;
+    font-weight: 600 !important;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 992px) {
+    html[lang="fr"] .section--health-cards {
+        padding: 40px 10px !important;
+    }
+
+    html[lang="fr"] .health-card {
+        flex-direction: column !important;
+        margin-bottom: 30px !important;
+    }
+
+    html[lang="fr"] .health-card__media {
+        flex: 0 0 100% !important;
+        min-height: 250px !important;
+        width: 100% !important;
+        border-radius: 16px 16px 0 0 !important;
+    }
+
+    html[lang="fr"] .health-card__image {
+        min-height: 250px !important;
+        max-height: 320px !important;
+        width: 100% !important;
+    }
+
+    html[lang="fr"] .health-card--left .health-card__media,
+    html[lang="fr"] .health-card--left .health-card__body,
+    html[lang="fr"] .health-card--right .health-card__media,
+    html[lang="fr"] .health-card--right .health-card__body {
+        order: unset !important;
+    }
+
+    html[lang="fr"] .health-card--left .health-card__body,
+    html[lang="fr"] .health-card--right .health-card__body {
+        padding: 25px 28px !important;
+    }
+
+    html[lang="fr"] .health-card__body {
+        min-height: auto !important;
+        padding: 25px 28px !important;
+    }
+
+    html[lang="fr"] .health-card__title {
+        font-size: 1.3rem !important;
+    }
+
+    html[lang="fr"] .health-card__text {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    html[lang="fr"] .section--health-cards {
+        padding: 30px 8px !important;
+    }
+
+    html[lang="fr"] .health-card {
+        margin-bottom: 25px !important;
+        border-radius: 12px !important;
+    }
+
+    html[lang="fr"] .health-card__media {
+        min-height: 180px !important;
+        border-radius: 12px 12px 0 0 !important;
+    }
+
+    html[lang="fr"] .health-card__image {
+        min-height: 180px !important;
+        max-height: 250px !important;
+    }
+
+    html[lang="fr"] .health-card--left .health-card__body,
+    html[lang="fr"] .health-card--right .health-card__body {
+        padding: 20px 20px !important;
+    }
+
+    html[lang="fr"] .health-card__body {
+        padding: 20px 20px !important;
+        min-height: auto !important;
+    }
+
+    html[lang="fr"] .health-card__title {
+        font-size: 1.1rem !important;
+    }
+
+    html[lang="fr"] .health-card__text {
+        font-size: 0.85rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    html[lang="fr"] .section--health-cards {
+        padding: 20px 5px !important;
+    }
+
+    html[lang="fr"] .health-card {
+        border-radius: 10px !important;
+        margin-bottom: 20px !important;
+    }
+
+    html[lang="fr"] .health-card__media {
+        min-height: 140px !important;
+    }
+
+    html[lang="fr"] .health-card__image {
+        min-height: 140px !important;
+        max-height: 200px !important;
+    }
+
+    html[lang="fr"] .health-card--left .health-card__body,
+    html[lang="fr"] .health-card--right .health-card__body {
+        padding: 16px 14px !important;
+    }
+
+    html[lang="fr"] .health-card__body {
+        padding: 16px 14px !important;
+        min-height: auto !important;
+    }
+
+    html[lang="fr"] .health-card__title {
+        font-size: 0.95rem !important;
+        margin-bottom: 8px !important;
+    }
+
+    html[lang="fr"] .health-card__text {
+        font-size: 0.75rem !important;
+        line-height: 1.5 !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ============================================
+   HERO - MALE VITALITY 🌿
+   ============================================ */
+
+/* --- Image de fond + padding top --- */
+html[lang="fr"] .hero--vitality {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    min-height: calc(60vh + 60px) !important;
+    position: relative !important;
+    padding-top: 270px !important;
+}
+
+/* --- Overlay (couvre toute l'image) --- */
+html[lang="fr"] .hero--vitality .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.65) 0%,
+        rgba(44, 74, 59, 0.55) 100%
+    ) !important;
+    position: absolute !important;
+    top: 60px !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: calc(100% - 60px) !important;
+    z-index: 1 !important;
+}
+
+/* --- Contenu --- */
+html[lang="fr"] .hero--vitality .hero__container {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+html[lang="fr"] .hero--vitality .hero__content--center {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    min-height: 50vh !important;
+    padding: 40px 20px !important;
+    top: 40px;
+}
+
+/* --- Label --- */
+html[lang="fr"] .hero--vitality .hero__label {
+    color: #C9A96E !important;
+    text-shadow: none !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .hero--vitality .hero__title--vitality {
+    color: #FFFFFF !important;
+    text-shadow: none !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .hero--vitality .hero__divider--vitality {
+    background: linear-gradient(to right, #C9A96E, #60476e) !important;
+}
+
+/* --- Sous-titre --- */
+html[lang="fr"] .hero--vitality .hero__subtitle--vitality {
+    color: #E2D5B6 !important;
+    text-shadow: none !important;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 992px) {
+    html[lang="fr"] .hero--vitality {
+        min-height: calc(50vh + 50px) !important;
+        padding-top: 50px !important;
+        margin-bottom: 60px;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__overlay {
+        top: 50px !important;
+        height: calc(100% - 50px) !important;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__content--center {
+        min-height: 40vh !important;
+        padding: 30px 20px !important;
+        left: -70px;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__title--vitality {
+        font-size: 2.5rem !important;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__subtitle--vitality {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--vitality {
+        min-height: calc(40vh + 40px) !important;
+        padding-top: 60px !important;
+        margin-bottom: 70px;
+        background-position: center 30% !important;
+        top: 50px;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(96, 71, 110, 0.75) 0%,
+            rgba(44, 74, 59, 0.65) 100%
+        ) !important;
+        top: 40px !important;
+        height: calc(100% - 40px) !important;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__content--center {
+        min-height: 35vh !important;
+        padding: 20px 15px !important;
+        top: 60px !important;
+        left: -60px;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__label {
+        font-size: 0.7rem !important;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__title--vitality {
+        font-size: 2rem !important;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__subtitle--vitality {
+        font-size: 0.85rem !important;
+        padding: 0 15px !important;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__divider--vitality {
+        width: 50px !important;
+        height: 3px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    html[lang="fr"] .hero--vitality {
+        min-height: calc(35vh + 30px) !important;
+        padding-top: 30px !important;
+        margin-bottom: 40px;
+        background-position: center 25% !important;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(96, 71, 110, 0.8) 0%,
+            rgba(44, 74, 59, 0.7) 100%
+        ) !important;
+        top: 30px !important;
+        height: calc(100% - 30px) !important;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__content--center {
+        min-height: 30vh !important;
+        padding: 15px 10px !important;
+        left: -50px;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__label {
+        font-size: 0.55rem !important;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__title--vitality {
+        font-size: 1.5rem !important;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__subtitle--vitality {
+        font-size: 0.7rem !important;
+        padding: 0 10px !important;
+    }
+
+    html[lang="fr"] .hero--vitality .hero__divider--vitality {
+        width: 40px !important;
+        height: 2px !important;
+    }
+}
+
+
+/* ============================================
+   SECTION RESTORING WHAT WAS LOST 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--restoring {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .restoring__title {
+    color: #2C4A3B !important;
+}
+
+html[lang="fr"] .restoring__title span {
+    color: #60476e !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .restoring__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .restoring__text {
+    color: #4A6B5A !important;
+}
+
+html[lang="fr"] .restoring__text--highlight {
+    color: #2C4A3B !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .restoring__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 32px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+    display: inline-block !important;
+}
+
+html[lang="fr"] .restoring__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+/* --- CTA --- */
+html[lang="fr"] .restoring__cta {
+    text-align: center !important;
+    margin-top: 30px !important;
+}
+
+
+
+/* ============================================
+   SECTION QUI JE SERS (VITALITÉ MASCULINE) 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--serve-vitality {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .serve-vitality__title {
+    color: #2C4A3B !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .serve-vitality__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Liste --- */
+html[lang="fr"] .serve-vitality__list li {
+    color: #4A6B5A !important;
+    border-bottom: 1px solid #B8CFB0 !important;
+}
+
+html[lang="fr"] .serve-vitality__list li::before {
+    color: #60476e !important;
+}
+
+/* --- Survol liste --- */
+html[lang="fr"] .serve-vitality__list li:hover {
+    color: #60476e !important;
+}
+
+html[lang="fr"] .serve-vitality__list li:hover::before {
+    color: #C9A96E !important;
+}
+
+/* --- Carte --- */
+html[lang="fr"] .serve-vitality__card {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08) !important;
+}
+
+html[lang="fr"] .serve-vitality__card:hover {
+    border-color: #7BA58C !important;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15) !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .serve-vitality__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+}
+
+html[lang="fr"] .serve-vitality__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+}
+
+
+/* ============================================
+   SECTION THOSE WHO SEEK CLARITY 🌿
+   ============================================ */
+
+/* --- Fond de la section --- */
+html[lang="fr"] .section--clarity {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .clarity__title {
+    color: #2C4A3B !important;
+}
+
+html[lang="fr"] .clarity__title span {
+    color: #60476e !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .clarity__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .clarity__text {
+    color: #4A6B5A !important;
+}
+
+html[lang="fr"] .clarity__text--highlight {
+    color: #2C4A3B !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .clarity__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 32px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+    display: inline-block !important;
+}
+
+html[lang="fr"] .clarity__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+/* --- CTA --- */
+html[lang="fr"] .clarity__cta {
+    text-align: center !important;
+    margin-top: 30px !important;
+}
+
+
+/* ============================================
+   SECTION SPIRITUAL CONSULTATION SERVICES 🌿
+   ============================================ */
+
+/* --- Fonds des sections --- */
+html[lang="fr"] .section--consultation-block--diagnosis,
+html[lang="fr"] .section--consultation-block--istikhara,
+html[lang="fr"] .section--consultation-block--orientation,
+html[lang="fr"] .section--consultation-block--custom {
+    background: #F0F5EE !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .consultation-block__title {
+    color: #2C4A3B !important;
+}
+
+html[lang="fr"] .consultation-block__title span {
+    color: #60476e !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .consultation-block__divider {
+    background: linear-gradient(to right, #60476e, #C9A96E) !important;
+}
+
+/* --- Carte --- */
+html[lang="fr"] .consultation-block__card {
+    background: #FCFAF5 !important;
+    border: 1px solid #B8CFB0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 16px rgba(44, 74, 59, 0.08) !important;
+    padding: 30px !important;
+}
+
+html[lang="fr"] .consultation-block__card:hover {
+    border-color: #7BA58C !important;
+    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15) !important;
+}
+
+/* --- Texte --- */
+html[lang="fr"] .consultation-block__text {
+    color: #4A6B5A !important;
+}
+
+/* --- Bouton --- */
+html[lang="fr"] .consultation-block__btn {
+    background: linear-gradient(135deg, #2C4A3B 0%, #60476e 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 28px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(44, 74, 59, 0.3) !important;
+    display: inline-block !important;
+}
+
+html[lang="fr"] .consultation-block__btn:hover {
+    background: linear-gradient(135deg, #4A6B5A 0%, #7A5A8A 100%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 6px 25px rgba(44, 74, 59, 0.4) !important;
+    color: #FFFFFF !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================
+   HERO - SPIRITUAL CONSULTATION 🌿
+   ============================================ */
+
+/* --- Image de fond + padding top --- */
+html[lang="fr"] .hero--consultation {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    min-height: calc(60vh + 60px) !important;
+    position: relative !important;
+    padding-top: 33% !important;
+}
+
+/* --- Overlay --- */
+html[lang="fr"] .hero--consultation .hero__overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(96, 71, 110, 0.65) 0%,
+        rgba(44, 74, 59, 0.55) 100%
+    ) !important;
+    position: absolute !important;
+    top: 60px !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: calc(100% - 60px) !important;
+    z-index: 1 !important;
+}
+
+/* --- Contenu --- */
+html[lang="fr"] .hero--consultation .hero__container {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+html[lang="fr"] .hero--consultation .hero__content--center {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    min-height: 50vh !important;
+    padding: 40px 20px !important;
+    top: 80px;
+}
+
+/* --- Label --- */
+html[lang="fr"] .hero--consultation .hero__label {
+    color: #C9A96E !important;
+    text-shadow: none !important;
+}
+
+/* --- Titre --- */
+html[lang="fr"] .hero--consultation .hero__title--consultation {
+    color: #FFFFFF !important;
+    text-shadow: none !important;
+}
+
+/* --- Diviseur --- */
+html[lang="fr"] .hero--consultation .hero__divider--consultation {
+    background: linear-gradient(to right, #C9A96E, #60476e) !important;
+}
+
+/* --- Sous-titre --- */
+html[lang="fr"] .hero--consultation .hero__subtitle--consultation {
+    color: #E2D5B6 !important;
+    text-shadow: none !important;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 992px) {
+    html[lang="fr"] .hero--consultation {
+        min-height: calc(50vh + 50px) !important;
+        padding-top: 100px !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__overlay {
+        top: 50px !important;
+        height: calc(100% - 50px) !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__content--center {
+        min-height: 40vh !important;
+        padding: 30px 20px !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__title--consultation {
+        font-size: 2.5rem !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__subtitle--consultation {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    html[lang="fr"] .hero--consultation {
+        min-height: calc(40vh + 40px) !important;
+        padding-top: 70px !important;
+        background-position: center 30% !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(96, 71, 110, 0.75) 0%,
+            rgba(44, 74, 59, 0.65) 100%
+        ) !important;
+        top: 40px !important;
+        height: calc(100% - 40px) !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__content--center {
+        min-height: 35vh !important;
+        padding: 20px 15px !important;
+        top: 22px !important;
+        left: -40px;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__label {
+        font-size: 0.7rem !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__title--consultation {
+        font-size: 2rem !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__subtitle--consultation {
+        font-size: 0.85rem !important;
+        padding: 0 15px !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__divider--consultation {
+        width: 50px !important;
+        height: 3px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    html[lang="fr"] .hero--consultation {
+        min-height: calc(35vh + 30px) !important;
+        padding-top: 30px !important;
+        background-position: center 25% !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(96, 71, 110, 0.8) 0%,
+            rgba(44, 74, 59, 0.7) 100%
+        ) !important;
+        top: 30px !important;
+        height: calc(100% - 30px) !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__content--center {
+        min-height: 30vh !important;
+        padding: 15px 10px !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__label {
+        font-size: 0.55rem !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__title--consultation {
+        font-size: 1.5rem !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__subtitle--consultation {
+        font-size: 0.7rem !important;
+        padding: 0 10px !important;
+    }
+
+    html[lang="fr"] .hero--consultation .hero__divider--consultation {
+        width: 40px !important;
+        height: 2px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================
+   STICKY BAR - COULEURS 🌿
+   ============================================ */
+
+/* --- STICKY BAR (fond pleine largeur) --- */
+html[lang="fr"] .sticky-top-bar {
+    background: linear-gradient(135deg, #1A2E24 0%, #2C4A3B 100%);
+    border-bottom: 2px solid #60476e;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 100% !important;
+    max-width: 100vw !important;
+    position: fixed;
+    top: 80px; /* Descend de 60px pour être en dessous du header */
+    left: 0;
+    z-index: 9999;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.5s ease;
+}
+
+/* --- Quand la barre est masquée (scroll vers le bas) --- */
+html[lang="fr"] .sticky-top-bar.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+/* --- CONTENU INTERNE (centré avec padding) --- */
+html[lang="fr"] .sticky-top-bar-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 6px 16px;
+    box-sizing: border-box;
+}
+
+/* --- TEXTES --- */
+html[lang="fr"] .sticky-top-bar * {
+    color: #E2D5B6;
+}
+
+/* --- BRAND (TITRE) --- */
+html[lang="fr"] .sticky-title {
+    color: #E2D5B6;
+    font-weight:950;
+    white-space: nowrap;
+}
+
+html[lang="fr"] .sticky-icon {
+    color: #C9A96E;
+}
+
+/* --- SÉPARATEUR --- */
+html[lang="fr"] .sticky-divider {
+    color: #60476e;
+}
+
+/* --- LIENS --- */
+html[lang="fr"] .sticky-link {
+    color: #E2D5B6;
+    font-size: 0.95rem; /* Plus petit */
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+html[lang="fr"] .sticky-link:hover {
+    color: #C9A96E;
+}
+
+html[lang="fr"] .sticky-link:hover .sticky-link-text {
+    color: #C9A96E;
+    font: 1em sans-serif;
+}
+
+/* --- CONTACTS --- */
+html[lang="fr"] .sticky-contact {
+    color: #E2D5B6;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+html[lang="fr"] .sticky-contact:hover {
+    color: #C9A96E;
+}
+
+html[lang="fr"] .sticky-contact-text {
+    color: #E2D5B6;
+    font-size: 9px !important;
+    font-weight: 900;
+}
+
+html[lang="fr"] .sticky-contact:hover .sticky-contact-text {
+    color: #C9A96E;
+}
+
+/* --- BOUTON CTA --- */
+html[lang="fr"] .sticky-cta {
+    background: #60476e;
+    color: #FFFFFF !important;
+    border-radius: 6px;
+    padding: 6px 16px;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+html[lang="fr"] .sticky-cta:hover {
+    background: #7A5A8A;
+    color: #FFFFFF !important;
+    transform: scale(1.05);
+}
+
+html[lang="fr"] .sticky-cta * {
+    color: #FFFFFF !important;
+}
+
+/* ============================================
+   STICKY BAR - MOBILE (AGRANDIE)
+   ============================================ */
+
+@media (max-width: 768px) {
+    
+    /* --- Barre flottante agrandie --- */
+    html[lang="fr"] .sticky-top-bar {
+        position: fixed !important;
+        top: 80px !important;
+        right: 10px !important;
+        left: auto !important;
+        width: 200px !important;  /* Agrandi */
+        height: auto !important;
+        max-width: 200px !important;
+        min-height: auto !important;
+        padding: 16px 18px !important;  /* Plus de padding */
+        background: linear-gradient(135deg, #1A2E24 0%, #2C4A3B 100%) !important;
+        border-radius: 16px !important;
+        border: 2px solid #C9A96E !important;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3) !important;
+        z-index: 9999 !important;
+        overflow: visible !important;
+        display: flex !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+        transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.5s ease !important;
+    }
+    
+    /* --- Barre cachée au scroll --- */
+    html[lang="fr"] .sticky-top-bar.hidden {
+        transform: translateY(-100%) !important;
+        opacity: 0 !important;
+    }
+    
+    /* --- Conteneur interne --- */
+    html[lang="fr"] .sticky-top-bar-inner {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        justify-content: flex-start !important;
+        padding: 0 !important;
+        gap: 10px !important;
+        width: 100% !important;
+        height: 100% !important;
+        min-height: auto !important;
+        max-height: none !important;
+    }
+    
+    /* --- Cacher les éléments inutiles --- */
+    html[lang="fr"] .sticky-brand,
+    html[lang="fr"] .sticky-divider,
+    html[lang="fr"] .sticky-links {
+        display: none !important;
+    }
+    
+    /* --- Contacts (visibles directement) --- */
+    html[lang="fr"] .sticky-contacts {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 8px !important;
+        width: 100% !important;
+    }
+    
+    html[lang="fr"] .sticky-contact {
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+        color: #E2D5B6 !important;
+        text-decoration: none !important;
+        font-size: 0.75rem !important;
+        padding: 6px 8px !important;
+        transition: all 0.3s ease !important;
+        line-height: 1.4 !important;
+        white-space: normal !important;
+        border-radius: 8px !important;
+        background: rgba(255, 255, 255, 0.05) !important;
+    }
+    
+    html[lang="fr"] .sticky-contact:hover {
+        background: rgba(255, 255, 255, 0.12) !important;
+        color: #C9A96E !important;
+    }
+    
+    html[lang="fr"] .sticky-contact span:first-child {
+        font-size: 1.2rem !important;
+        flex-shrink: 0 !important;
+    }
+    
+    html[lang="fr"] .sticky-contact-text {
+        color: #E2D5B6 !important;
+        font-size: 0.65rem !important;
+        line-height: 1.3 !important;
+        word-break: break-word !important;
+    }
+    
+    html[lang="fr"] .sticky-contact:hover .sticky-contact-text {
+        color: #C9A96E !important;
+    }
+    
+    /* --- Bouton CTA (visible) --- */
+    html[lang="fr"] .sticky-cta {
+        background: linear-gradient(135deg, #60476e 0%, #2C4A3B 100%) !important;
+        color: #FFFFFF !important;
+        border-radius: 10px !important;
+        padding: 10px 14px !important;
+        font-size: 0.8rem !important;
+        font-weight: 700 !important;
+        text-align: center !important;
+        transition: all 0.3s ease !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 10px !important;
+        text-decoration: none !important;
+        width: 100% !important;
+        box-shadow: 0 2px 10px rgba(96, 71, 110, 0.3) !important;
+        border: none !important;
+        margin-top: 4px !important;
+    }
+    
+    html[lang="fr"] .sticky-cta:hover {
+        background: linear-gradient(135deg, #7A5A8A 0%, #4A6B5A 100%) !important;
+        transform: scale(1.02) !important;
+        color: #FFFFFF !important;
+    }
+    
+    html[lang="fr"] .sticky-cta span:first-child {
+        font-size: 1.1rem !important;
+    }
+    
+    html[lang="fr"] .sticky-cta span:last-child {
+        font-size: 0.75rem !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.5px !important;
+    }
+    
+    html[lang="fr"] .sticky-cta * {
+        color: #FFFFFF !important;
+    }
+}
+
+/* --- Très petits écrans --- */
+@media (max-width: 480px) {
+    html[lang="fr"] .sticky-top-bar {
+        top: 70px !important;
+        right: 8px !important;
+        width: 170px !important;
+        max-width: 170px !important;
+        padding: 14px 14px !important;
+        border-radius: 14px !important;
+    }
+    
+    html[lang="fr"] .sticky-contact {
+        font-size: 0.65rem !important;
+        padding: 4px 6px !important;
+        gap: 8px !important;
+    }
+    
+    html[lang="fr"] .sticky-contact span:first-child {
+        font-size: 1rem !important;
+    }
+    
+    html[lang="fr"] .sticky-contact-text {
+        font-size: 0.55rem !important;
+    }
+    
+    html[lang="fr"] .sticky-cta {
+        padding: 8px 10px !important;
+        font-size: 0.7rem !important;
+        border-radius: 8px !important;
+    }
+    
+    html[lang="fr"] .sticky-cta span:first-child {
+        font-size: 0.9rem !important;
+    }
+    
+    html[lang="fr"] .sticky-cta span:last-child {
+        font-size: 0.65rem !important;
+    }
+}
+
+/* --- Très grands mobiles (tablettes) --- */
+@media (min-width: 769px) and (max-width: 1024px) {
+    html[lang="fr"] .sticky-top-bar {
+        top: 90px !important;
+        right: 15px !important;
+        width: 220px !important;
+        max-width: 220px !important;
+        padding: 20px 20px !important;
+        border-radius: 20px !important;
+    }
+    
+    html[lang="fr"] .sticky-contact {
+        font-size: 0.85rem !important;
+        padding: 8px 10px !important;
+    }
+    
+    html[lang="fr"] .sticky-contact-text {
+        font-size: 0.75rem !important;
+    }
+    
+    html[lang="fr"] .sticky-cta {
+        padding: 12px 18px !important;
+        font-size: 0.9rem !important;
+    }
+}
