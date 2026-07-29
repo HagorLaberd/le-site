@@ -38,7 +38,7 @@
     <!-- ===== SELECTEUR LANGUES MOBILE ===== -->
 <script>
     // Chemin de base de ton site
-    var basePath = '/Laboanglais/le.site';
+    var basePath = '/le-site';
     
     // Détecter la langue actuelle
     function getCurrentLang() {
@@ -383,6 +383,18 @@
 
 <!-- ===== SWITCH LANGUE HEAD ===== -->
 <script>
+    // Chemin de base du site (pour GitHub Pages)
+    var basePath = '/le-site';
+    
+    // Détecter la langue actuelle
+    function getCurrentLang() {
+        var path = window.location.pathname;
+        if (path.includes('/ar/')) return 'ar';
+        if (path.includes('/fr/')) return 'fr';
+        return 'en';
+    }
+    var currentLang = getCurrentLang();
+    
     function toggleMenu() {
         var nav = document.getElementById('mobileNav');
         nav.classList.toggle('active');
@@ -391,8 +403,8 @@
     function toggleMobileLang() {
         var dropdown = document.getElementById('mobileLangDropdown');
         var btn = document.querySelector('.mobile-lang-dropdown-btn');
-        dropdown.classList.toggle('open');
-        btn.classList.toggle('open');
+        if (dropdown) dropdown.classList.toggle('open');
+        if (btn) btn.classList.toggle('open');
     }
     
     function switchLanguage(lang) {
@@ -431,6 +443,7 @@
     document.addEventListener('DOMContentLoaded', function() {
         var lang = getCurrentLang();
         
+        // Desktop
         var btn = document.getElementById('lang-' + lang);
         if (btn) {
             document.querySelectorAll('.lang-btn').forEach(function(el) {
@@ -439,6 +452,7 @@
             btn.classList.add('active');
         }
         
+        // Mobile
         var mobileLabel = document.getElementById('mobileCurrentLang');
         var labels = {
             'ar': 'عربي',
