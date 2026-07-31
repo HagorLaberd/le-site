@@ -5948,12 +5948,12 @@ img {
 
 .section--love {
     padding: 80px 0;
-    margin-top: -25px; /* ⬅️ AJUSTE CETTE VALEUR POUR RÉDUIRE L'ESPACE AVEC LA SECTION PRÉCÉDENTE */
+    margin-top: -25px !important; /* ⬅️ AJUSTE CETTE VALEUR POUR RÉDUIRE L'ESPACE AVEC LA SECTION PRÉCÉDENTE */
     background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 50%, #0A0A0A 100%);
     position: relative;
     overflow: hidden;
     border-top: 1px solid rgba(253, 208, 23, 0.05);
-    border-bottom: 1px solid rgba(253, 208, 23, 0.05);
+    border-bottom: 149px solid rgba(253, 208, 23, 0.05);
     border-radius: 25px 25px 0 0px;
 }
 
