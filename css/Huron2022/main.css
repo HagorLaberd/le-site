@@ -7922,6 +7922,7 @@ img {
 .hero--contact {
     position: relative;
     padding: 120px 0 160px;
+    margin-bottom: -10px;
     background-size: 100% 74%;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -8927,6 +8928,7 @@ img {
 .section--cta-final {
     padding: 70px 0 80px;
     background: linear-gradient(135deg, #0A0A0A 0%, #1A1208 30%, #0A0A0A 70%, #1A0E05 100%);
+    margin-bottom: 150px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -9486,7 +9488,7 @@ img {
 
 /* ===== CONTENU CENTRÉ ===== */
 .hero--ancestral .hero__content--center {
-    top: -40px !important;
+    top: 70px !important;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -10353,7 +10355,8 @@ img {
    ============================================ */
 
 .accordion__cta {
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     padding: 40px 45px;
     background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);
     border-radius: 20px;
