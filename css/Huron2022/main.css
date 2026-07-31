@@ -10396,6 +10396,7 @@ img {
 @media (max-width: 992px) {
     .section--accordion {
         padding: 60px 0 70px;
+        bottom: 40px;
     }
 
     .accordion__header {
@@ -10436,6 +10437,7 @@ img {
 @media (max-width: 768px) {
     .section--accordion {
         padding: 40px 0 50px;
+        bottom: 30px;
     }
 
     .section--accordion::before,
@@ -10518,6 +10520,7 @@ img {
 @media (max-width: 576px) {
     .section--accordion {
         padding: 30px 0 40px;
+        bottom: 20px;
     }
 
     .section--accordion::before,
@@ -11886,19 +11889,7 @@ img {
 
 
 /* Décoration de fond */
-.section--path-slider::before {
-    content: '';
-    position: absolute;
-    top: -200px;
-    right: -200px;
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, rgba(253, 208, 23, 0.04) 0%, transparent 70%);
-    border-radius: 50%;
-    z-index: 0;
-    pointer-events: none;
-    animation: ctaGlow 8s ease-in-out infinite alternate;
-}
+
 
 .section--path-slider::after {
     content: '';
@@ -12109,6 +12100,7 @@ img {
 /* ===== CTA FINAL ===== */
 .path-slider__cta {
     margin-top: 50px;
+    margin-bottom: 70px;
     padding: 40px 45px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
     border-radius: 20px;
