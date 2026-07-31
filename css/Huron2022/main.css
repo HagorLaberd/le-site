@@ -6261,7 +6261,7 @@ img {
     left: 0;
     width: 100%;
     height: 90%; /* ⬅️ MÊME HAUTEUR QUE L'OVERLAY */
-    background-image: url('/Laboanglais/le.site/mes-images/experts/guide-spirituel.png');
+    background-image: url('/le-site/mes-images/experts/guide-spirituel.png');
     background-size: 100% 100%;
     background-position: center top;
     background-repeat: no-repeat;
