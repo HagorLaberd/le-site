@@ -7922,6 +7922,7 @@ img {
 .hero--contact {
     position: relative;
     padding: 120px 0 160px;
+    margin-top: -120px !important;
     margin-bottom: -10px;
     background-size: 100% 74%;
     background-position: center bottom;
