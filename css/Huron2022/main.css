@@ -7950,7 +7950,7 @@ img {
     z-index: 0;
     border-radius: 0 0 30px 30px;
     /* ✅ AJUSTE ICI POUR REMONTER L'IMAGE */
-    margin-top: -40px !important; /* ⬅️ Négatif = remonte */
+    margin-top: -120px !important; /* ⬅️ Négatif = remonte */
 }
 
 /* Overlay */
