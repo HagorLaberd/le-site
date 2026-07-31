@@ -7921,14 +7921,14 @@ img {
 
 .hero--contact {
     position: relative;
-    padding: 160px 0 180px;
-    margin-top: -90px !important;
+    padding: 200px 0 220px !important;
+    margin-top: -140px !important;
     margin-bottom: -10px;
     background-size: 100% 74%;
     background-position: center bottom;
     background-repeat: no-repeat;
     overflow: hidden;
-    min-height: 550px;
+    min-height: 750px !important;
     display: flex;
     align-items: center;
     border-radius: 0 0 30px 30px;
