@@ -7920,6 +7920,7 @@ img {
    ============================================ */
 
 .hero--contact {
+    top: -10%;
     position: relative;
     padding: 240px 0 260px !important;
     margin-top: -140px !important;
@@ -7960,7 +7961,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    height: 93%;
+    height: 95%;
     background: linear-gradient(180deg, 
         rgba(10, 10, 10, 0.35) 0%,
         rgba(0, 0, 0, 0.25) 30%,
@@ -7973,6 +7974,7 @@ img {
 }
 
 .hero--contact .hero__container {
+    
     position: relative;
     z-index: 2;
     width: 100%;
@@ -7980,7 +7982,7 @@ img {
 
 /* ===== CONTENU CENTRÉ ===== */
 .hero--contact .hero__content--center {
-    top: -50px;
+    top: 60px;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -12101,7 +12103,7 @@ img {
 /* ===== CTA FINAL ===== */
 .path-slider__cta {
     margin-top: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
     padding: 40px 45px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
     border-radius: 20px;
@@ -15203,6 +15205,7 @@ img {
 .section--join-team {
     padding: 60px 0 70px;
     margin-top: 10px;
+    margin-bottom: 11%;
     background: linear-gradient(180deg, 
         rgba(10, 10, 10, 0.95) 0%,
         rgba(15, 15, 15, 0.90) 30%,
@@ -16002,6 +16005,8 @@ img {
 @media (max-width: 992px) {
     .section--restoring {
         padding: 60px 0 70px;
+        margin-bottom: -65px;
+        top: -65px !important;
     }
 
     .section--restoring::before,
@@ -16041,6 +16046,8 @@ img {
 @media (max-width: 768px) {
     .section--restoring {
         padding: 40px 0 50px;
+        margin-top: 55px;
+        top: 65px;
     }
 
     .section--restoring::before,
@@ -19338,6 +19345,7 @@ img {
    ============================================ */
 
 .section--not-alone {
+    margin-bottom: 11%;
     padding: 60px 0 70px;
     background: linear-gradient(180deg, 
         rgba(10, 10, 10, 0.95) 0%,
