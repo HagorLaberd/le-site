@@ -7919,11 +7919,10 @@ img {
    HERO - CONTACT US PAGE
    ============================================ */
 
-.hero--contact {
-    top: -60%;
+.hero--contact {    
     position: relative;
+    margin-top: -8%;
     padding: 240px 0 260px !important;
-    margin-top: -140px !important;
     margin-bottom: -10px;
     background-size: 100% 74%;
     background-position: center bottom;
