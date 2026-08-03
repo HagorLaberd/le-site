@@ -41,7 +41,8 @@ a:hover {
 
 img {
     max-width: 100%;
-    height: auto;
+    height: 50px !important;
+    margin-bottom: -10px;
 }
 
 /* ---------- 2. CONTAINERS ---------- */
@@ -15557,7 +15558,7 @@ img {
    ============================================ */
 
 .hero--vitality {
-    margin-top: -160px;
+    margin-top: -185px;
     max-resolution: 100%;
     position: relative;
     padding: 100px 0 140px;
@@ -15613,7 +15614,7 @@ img {
 
 /* ===== CONTENU CENTRÉ ===== */
 .hero--vitality .hero__content--center {
-    top: 30px;
+    top: 70px;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -15710,7 +15711,7 @@ img {
     .hero--vitality {
         top: 45px;
         min-height: 450px;
-        padding: 60px 0 100px;
+        padding: 80px 0 160px !important;
         border-radius: 0 0 20px 20px;
     }
 
@@ -15761,7 +15762,7 @@ img {
     .hero--vitality {
         top: 35px;
         min-height: 480px;
-        padding: 40px 0 80px;
+        padding: 70px 0 140px !important;
         border-radius: 0 0 16px 16px;
         margin-bottom: 100px;
     }
@@ -16804,7 +16805,7 @@ img {
 @media (max-width: 1200px) {
     .hero--curses {
         min-height: 500px;
-        padding: 80px 0 120px;
+        padding: 60px 0 80px;
         border-radius: 0 0 25px 25px;
     }
 
@@ -16819,7 +16820,7 @@ img {
     }
 
     .hero--curses .hero__content--center {
-        padding: 40px 40px;
+        padding: 48px 42px;
         border-radius: 16px;
     }
 
@@ -16832,7 +16833,7 @@ img {
 @media (max-width: 992px) {
     .hero--curses {
         min-height: 450px;
-        padding: 60px 0 100px;
+        padding: 50px 0 90px;
         border-radius: 0 0 20px 20px;
     }
 
@@ -16854,7 +16855,7 @@ img {
     }
 
     .hero--curses .hero__content--center {
-        padding: 35px 30px;
+        padding: 38px 32px;
         border-radius: 14px;
         background: rgba(0, 0, 0, 0.25);
     }
@@ -16887,13 +16888,13 @@ img {
     }
 
     .hero--curses::before {
-        height: 50%;
+        height: 100% !important;
         border-radius: 0 0 16px 16px;
         background-size: 160% 100%;
     }
 
     .hero--curses .hero__overlay {
-        height: 100%;
+        height: 100% !important;
         border-radius: 0 0 16px 16px;
         background: linear-gradient(180deg, 
             rgba(0, 0, 0, 0.35) 0%,
@@ -16904,8 +16905,9 @@ img {
     }
 
     .hero--curses .hero__content--center {
-        top: -90px !important;
+        top: -25px !important;
         padding: 28px 22px;
+        left: -12%;
         border-radius: 12px;
         background: rgba(0, 0, 0, 0.30);
         backdrop-filter: blur(3px);
@@ -18502,14 +18504,14 @@ img {
     }
 
     .hero--consultation::before {
-        height: 60%;
+        height: 100% !important;
         border-radius: 0 0 25px 25px;
         background-size: 100% 60%;
         background-position: center bottom;
     }
 
     .hero--consultation .hero__overlay {
-        height: 60%;
+        height: 100% !important;
         border-radius: 0 0 25px 25px;
     }
 
@@ -18536,14 +18538,14 @@ img {
     }
 
     .hero--consultation::before {
-        height: 55%;
+        height: 100% !important;
         border-radius: 0 0 20px 20px;
         background-size: 130% 55%;
         background-position: center top;
     }
 
     .hero--consultation .hero__overlay {
-        height: 55%;
+        height: 100% !important;
         border-radius: 0 0 20px 20px;
         background: linear-gradient(180deg, 
             rgba(0, 0, 0, 0.30) 0%,
@@ -18591,7 +18593,7 @@ img {
     }
 
     .hero--consultation::before {
-        height: 50%;
+        height: 100% !important;
         border-radius: 0 0 16px 16px;    
         background-size: 160% 100% !important;
         background-position: center bottom !important;
@@ -18599,7 +18601,7 @@ img {
     }
 
     .hero--consultation .hero__overlay {
-        height: 100%;
+        height: 100% !important;
         border-radius: 0 0 16px 16px;
         background: linear-gradient(180deg, 
             rgba(0, 0, 0, 0.35) 0%,
@@ -18612,6 +18614,7 @@ img {
     .hero--consultation .hero__content--center {
         top: -10px !important;
         padding: 28px 22px;
+        left: -12%;
         border-radius: 12px;
         background: rgba(0, 0, 0, 0.30);
         backdrop-filter: blur(3px);
@@ -18637,66 +18640,7 @@ img {
         font-size: 0.7rem;
         letter-spacing: 2px;
         margin-bottom: 8px;
-        margin-top: 10px;
-    }
-}
-
-/* ============================================
-   RESPONSIVE - PETIT MOBILE (max-width: 576px)
-   ============================================ */
-@media (max-width: 576px) {
-    .hero--consultation {
-        margin-top: -60px;
-        padding: 70px 0 60px;
-        min-height: 320px;
-        border-radius: 0 0 12px 12px;
-    }
-
-    .hero--consultation::before {
-        height: 45%;
-        border-radius: 0 0 12px 12px;
-        background-size: 200% 45%;
-        background-position: center top;
-    }
-
-    .hero--consultation .hero__overlay {
-        height: 45%;
-        border-radius: 0 0 12px 12px;
-        background: linear-gradient(180deg, 
-            rgba(0, 0, 0, 0.40) 0%,
-            rgba(0, 0, 0, 0.45) 30%,
-            rgba(0, 0, 0, 0.60) 60%,
-            rgba(0, 0, 0, 0.75) 100%
-        );
-    }
-
-    .hero--consultation .hero__content--center {
-        top: 10px;
-        padding: 22px 18px;
-        border-radius: 10px;
-        background: rgba(0, 0, 0, 0.35);
-        backdrop-filter: blur(2px);
-    }
-
-    .hero--consultation .hero__title--consultation {
-        font-size: clamp(1.3rem, 2.5vw + 0.3rem, 1.8rem);
-        margin-bottom: 12px;
-    }
-
-    .hero--consultation .hero__subtitle--consultation {
-        font-size: 0.85rem;
-        line-height: 1.5;
-    }
-
-    .hero--consultation .hero__divider--consultation {
-        width: 40px;
-        height: 2px;
-        margin-bottom: 15px;
-    }
-
-    .hero--consultation .hero__label {
-        font-size: 0.65rem;
-        letter-spacing: 1.5px;
+        margin-top: 45px;
     }
 }
 
@@ -19518,6 +19462,7 @@ img {
 @media (max-width: 992px) {
     .section--not-alone {
         padding: 50px 0 60px;
+        margin-bottom: 41% !important;
     }
 
     .section--not-alone::before,
@@ -19560,6 +19505,7 @@ img {
 @media (max-width: 768px) {
     .section--not-alone {
         padding: 40px 0 50px;
+        margin-bottom: 31% !important;
     }
 
     .section--not-alone::before,
@@ -19594,6 +19540,7 @@ img {
 @media (max-width: 576px) {
     .section--not-alone {
         padding: 30px 0 40px;
+        margin-bottom: 21% !important;
     }
 
     .section--not-alone::before,
@@ -21069,8 +21016,9 @@ img {
 /* ----- MOBILE (max-width: 768px) ----- */
 @media (max-width: 768px) {
     .hero--family {
-        min-height: 420px;
-        padding: 100px 150px;
+        margin-top: 0 !important;
+        min-height: 350px !important;
+        padding: 10px 20px !important;
         background-size: 100% 100% !important;
         background-position: center bottom !important;
         border-radius: 0 0 16px 16px;
@@ -21089,46 +21037,47 @@ img {
     }
 
     .hero--family .hero__content--center {
-        top: -20px !important;
-        padding: 20px 18px !important;
-        border-radius: 12px;
-        background: rgba(0, 0, 0, 0.35);
-        backdrop-filter: blur(3px);
-        max-width: 95%;
-        margin: 0 auto 10px auto;
-        position: relative;
+        margin-top: 30px !important;
+        padding: 10px 8px !important;
+        left: -11% !important;
+        border-radius: 12px !important;
+        background: rgba(0, 0, 0, 0.35) !important;
+        backdrop-filter: blur(3px) !important;
+        max-width: 65% !important;
+        margin: 0 auto 10px auto ;
+        position: relative ;
     }
 
     .hero--family .hero__title--family {
-        font-size: clamp(1.4rem, 3vw + 0.5rem, 1.8rem);
-        margin-bottom: 12px;
+        font-size: clamp(1.7rem, 3vw + 0.4rem, 1.8rem) !important;
+        margin-bottom: 12px !important;
     }
 
     .hero--family .hero__subtitle--family {
-        font-size: 0.85rem;
-        line-height: 1.5;
+        font-size: 0.85rem !important;
+        line-height: 1.5 !important;
         color: rgba(255, 255, 255, 0.92);
     }
 
     .hero--family .hero__divider--family {
-        width: 40px;
-        height: 2px;
-        margin-bottom: 14px;
+        width: 40px !important;
+        height: 2px !important;
+        margin-bottom: 24px !important;
     }
 
     .hero--family .hero__label {
-        font-size: 0.6rem;
-        letter-spacing: 1.5px;
-        margin-bottom: 6px;
-        margin-top: 70px;
+        font-size: 0.6rem !important;
+        letter-spacing: 1.5px !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
     }
 }
 
 /* ----- PETIT MOBILE (max-width: 576px) ----- */
 @media (max-width: 576px) {
     .hero--family {
-        min-height: 380px;
-        padding: 40px 0 130px;
+        min-height: 350px !important;
+        padding: 0px 10px !important;
         background-size: 100% 100% !important;
         background-position: center bottom !important;
         border-radius: 0 0 12px 12px;
@@ -21147,37 +21096,37 @@ img {
     }
 
     .hero--family .hero__content--center {
-        top: -25px !important;
+        margin-top: 30px !important;
         padding: 18px 16px !important;
-        border-radius: 10px;
-        background: rgba(0, 0, 0, 0.40);
-        backdrop-filter: blur(2px);
-        max-width: 98%;
-        margin: 0 auto 5px auto;
+        border-radius: 10px !important;
+        background: rgba(0, 0, 0, 0.40) !important;
+        backdrop-filter: blur(2px) !important;
+        max-width: 78% !important;
+        margin: 0 auto 5px auto !important;
     }
 
     .hero--family .hero__title--family {
-        font-size: clamp(1.2rem, 2.5vw + 0.3rem, 1.5rem);
-        margin-bottom: 10px;
+        font-size: clamp(1.5rem, 2.5vw + 0.3rem, 1.5rem) !important;
+        margin-bottom: 10px !important;
     }
 
     .hero--family .hero__subtitle--family {
-        font-size: 0.8rem;
-        line-height: 1.4;
-        color: rgba(255, 255, 255, 0.92);
+        font-size: 0.85rem !important;
+        line-height: 1.4 !important;
+        color: rgba(255, 255, 255, 0.92) !important;
     }
 
     .hero--family .hero__divider--family {
-        width: 35px;
-        height: 2px;
-        margin-bottom: 12px;
+        width: 35px !important;
+        height: 2px !important;
+        margin-bottom: 12px !important;
     }
 
     .hero--family .hero__label {
-        font-size: 0.55rem;
-        letter-spacing: 1px;
-        margin-bottom: 4px;
-        margin-top: 60px;
+        font-size: 0.55rem !important;
+        letter-spacing: 1px !important;
+        margin-bottom: 20px !important;
+        margin-top: 40px !important;
     }
 }
 
@@ -21185,58 +21134,57 @@ img {
 @media (max-width: 380px) {
     .hero--family {
         min-height: 350px;
-        padding: 30px 0 120px;
+        padding: 30px 0 120px !important;
         background-size: 100% 100% !important;
         background-position: center bottom !important;
-        border-radius: 0 0 10px 10px;
-        align-items: flex-end;
+        border-radius: 0 0 10px 10px !important;
+        align-items: flex-end !important;
     }
 
     .hero--family .hero__overlay {
         height: 100% !important;
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 0 10px 10px !important;
         background: linear-gradient(180deg, 
             rgba(0, 0, 0, 0.30) 0%,
             rgba(0, 0, 0, 0.40) 30%,
             rgba(0, 0, 0, 0.60) 60%,
             rgba(0, 0, 0, 0.80) 100%
-        );
+        ) !important;
     }
 
     .hero--family .hero__content--center {
         top: 20px !important;
         padding: 14px 12px !important;
-        border-radius: 8px;
-        background: rgba(0, 0, 0, 0.45);
-        max-width: 100%;
-        margin: 0 auto 5px auto;
+        border-radius: 8px !important;
+        background: rgba(0, 0, 0, 0.45) !important;
+        max-width: 100% !important;
+        margin: 0 auto 5px auto !important;
     }
 
     .hero--family .hero__title--family {
-        font-size: clamp(1rem, 2vw + 0.2rem, 1.2rem);
-        margin-bottom: 8px;
+        font-size: clamp(1rem, 2vw + 0.2rem, 1.2rem) !important;
+        margin-bottom: 8px !important;
     }
 
     .hero--family .hero__subtitle--family {
-        font-size: 0.75rem;
-        line-height: 1.3;
-        color: rgba(255, 255, 255, 0.92);
+        font-size: 0.75rem !important;
+        line-height: 1.3 !important;
+        color: rgba(255, 255, 255, 0.92) !important;
     }
 
     .hero--family .hero__divider--family {
-        width: 30px;
-        height: 1.5px;
-        margin-bottom: 10px;
+        width: 30px !important;
+        height: 1.5px !important;
+        margin-bottom: 10px !important;
     }
 
     .hero--family .hero__label {
-        font-size: 0.5rem;
-        letter-spacing: 0.5px;
-        margin-bottom: 4px;
-        margin-top: 50px;
+        font-size: 0.5rem !important;
+        letter-spacing: 0.5px !important;
+        margin-bottom: 4px !important;
+        margin-top: 50px !important;
     }
 }
-
 
 
 
