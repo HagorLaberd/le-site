@@ -45,7 +45,7 @@ img {
 }
 
 /* ---------- 2. CONTAINERS ---------- */
-.container-reg {
+.container-reg { 
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -603,9 +603,12 @@ img {
 
 
 
-/* ============================================
+
+
+
+/* ======================================================================================== ============================================ 
    HERO - SECTION 1 HOME
-   ============================================ */
+   ============================================ ============================================ ============================================ */
 
 .hero--home {
     top: -10px;
@@ -762,11 +765,11 @@ img {
     }
 
     .hero__content {
-         margin-top: 66px;
+         
         padding: 25px 28px;
         max-width: 340px !important;
-        
         top: -60px;
+        
         border-radius: 14px;
     }
 
@@ -2585,6 +2588,7 @@ img {
 /* ----- TABLETTE (max-width: 992px) ----- */
 @media (max-width: 992px) {
     .section--commitment {
+        margin-top: 30px;
         padding: 55px 0;
     }
 
@@ -2607,7 +2611,6 @@ img {
 /* ----- MOBILE (max-width: 768px) ----- */
 @media (max-width: 768px) {
     .section--commitment {
-        margin-top: 30px;
         padding: 40px 0;
     }
 
@@ -3047,8 +3050,6 @@ img {
 
 
 
-
-
 /* ============================================
    FOOTER - LIENS LÉGAUX
    ============================================ */
@@ -3107,15 +3108,15 @@ img {
 }
 
 
-/* ============================================
+/* ====================================================================================================================================
    HERO - INDUSTRY PAGE (IMAGE COLLÉE EN HAUT)
-   ============================================ */
+   ==================================================================================================================================== */
 
 
 
 .hero--industry {
     position: relative;
-    padding: 120px 0 170px;
+    padding: 20px 0 170px;
     overflow: hidden;
     min-height: 650px;
     display: flex;
@@ -4117,7 +4118,6 @@ img {
 @media (max-width: 768px) {
     .section--testimonials-cta {
         padding: 40px 0 30px;
-        margin-bottom: 10px;
     }
 
     .testimonials__grid {
@@ -4155,6 +4155,7 @@ img {
     }
 
     .cta__container {
+        margin-bottom: 10px;
         padding: 30px 20px;
         border-radius: 16px;
     }
@@ -6281,7 +6282,7 @@ img {
     left: 0;
     width: 100%;
     height: 90%; /* ⬅️ MÊME HAUTEUR QUE L'OVERLAY */
-    background-image: url('/le-site/mes-images/experts/guide-spirituel.png');
+    background-image: url('/Laboanglais/le.site/mes-images/experts/guide-spirituel.png');
     background-size: 100% 100%;
     background-position: center top;
     background-repeat: no-repeat;
@@ -6367,10 +6368,6 @@ img {
 
 /* ============================================
    RESPONSIVE
-   ============================================ */
-
-/* ============================================
-   HERO - TRADITIONAL SPIRITUAL GUIDE - RESPONSIVE
    ============================================ */
 
 /* ----- TABLETTE (max-width: 1200px) ----- */
@@ -7945,6 +7942,7 @@ img {
 
 
 
+
 /* ============================================
    HERO - CONTACT US PAGE
    ============================================ */
@@ -8067,7 +8065,7 @@ img {
 /* ----- TABLETTE (max-width: 1200px) ----- */
 @media (max-width: 1200px) {
     .hero--contact {
-        min-height: 500px;
+        min-height: 290px;
         padding: 100px 0 140px;
         background-size: 110% 60%;
         border-radius: 0 0 25px 25px;
@@ -8091,7 +8089,7 @@ img {
 /* ----- TABLETTE (max-width: 992px) ----- */
 @media (max-width: 992px) {
     .hero--contact {
-        min-height: 450px;
+        min-height: 280px;
         padding: 80px 0 120px;
         background-size: 130% 55%;
         background-position: top 20% center;
@@ -8146,7 +8144,7 @@ img {
     }
 
     .hero--contact .hero__overlay {
-        height: 77.5%;
+        height: 77.5% !important;
         border-radius: 0 0 16px 16px;
         background: linear-gradient(180deg, 
             rgba(0, 0, 0, 0.35) 0%,
@@ -8156,10 +8154,15 @@ img {
         );
     }
 
+    
+
+
     .hero--contact .hero__content--center {
+        
         padding: 28px 22px; 
         margin-top: 30px;      
         border-radius: 12px;
+        left: -13%;
         background: rgba(0, 0, 0, 0.30);
         backdrop-filter: blur(3px);
     }
@@ -9734,7 +9737,7 @@ img {
     }
 
     .hero--ancestral .hero__content--center {
-        top: 7px !important;
+        top: 79px !important;
         top: -60px !important;
         padding: 22px 18px;
         border-radius: 10px;
@@ -10895,7 +10898,7 @@ img {
     .hero--cleansing {
         min-height: 400px;
         padding: 5px 0 25px;
-        margin-top: -10px;
+        margin-top: -70px;
         background-size: 100% 50%;
         background-position: center bottom;
         border-radius: 0 0 12px 12px;
@@ -11955,7 +11958,6 @@ img {
 }
 
 
-
 /* Décoration de fond */
 
 
@@ -12598,22 +12600,23 @@ img {
 /* ----- MOBILE (max-width: 768px) ----- */
 @media (max-width: 768px) {
     .hero--financial {
-        top: 65px;
-        min-height: 480px;
-        padding: 50px 0 80px;
+        margin-top: -27% !important;
+        min-height: 480px !important;
+        padding: 80px 0 120px !important;
         border-radius: 0 0 16px 16px;
         margin-bottom: 90px;
     }
 
     .hero--financial::before {
-        height: 70%;
+        height: 100% !important;
         border-radius: 0 0 16px 16px;
         background-size: 160% 100%;
         background-position: center top;
     }
 
     .hero--financial .hero__overlay {
-        height: 100%;
+        height: 100% !important;
+        
         border-radius: 0 0 16px 16px;
         background: linear-gradient(180deg, 
             rgba(0, 0, 0, 0.35) 0%,
@@ -12626,6 +12629,7 @@ img {
     .hero--financial .hero__content--center {
         top: 120px !important;
         padding: 28px 22px;
+        left: -12%;
         border-radius: 12px;
         background: rgba(0, 0, 0, 0.30);
         backdrop-filter: blur(3px);
@@ -13804,7 +13808,7 @@ img {
 
 
 /* ============================================
-   HERO - SACRED HERBALISM HEALTHCARE
+   HERO - SACRED HERBALISM HEALTHCARE PART 2
    ============================================ */
 
 .hero--herbalism {
@@ -14177,6 +14181,7 @@ img {
         margin-top: 10px;
     }
 }
+
 
 
 
@@ -15560,7 +15565,7 @@ img {
     margin-top: -185px;
     max-resolution: 100%;
     position: relative;
-    padding: 100px 0 140px;
+    padding: 160px 0 180px !important;
     background-size: 100% 74%;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -15710,7 +15715,7 @@ img {
     .hero--vitality {
         top: 45px;
         min-height: 450px;
-        padding: 80px 0 160px !important;
+        padding: 60px 0 100px;
         border-radius: 0 0 20px 20px;
     }
 
@@ -16118,8 +16123,8 @@ img {
 @media (max-width: 768px) {
     .section--restoring {
         padding: 40px 0 50px;
-        margin-top: 55px;
-        top: 65px;
+        margin-bottom: -55px;
+        top: -65px !important;
     }
 
     .section--restoring::before,
@@ -16804,7 +16809,7 @@ img {
 @media (max-width: 1200px) {
     .hero--curses {
         min-height: 500px;
-        padding: 60px 0 80px;
+        padding: 80px 0 120px;
         border-radius: 0 0 25px 25px;
     }
 
@@ -16819,7 +16824,7 @@ img {
     }
 
     .hero--curses .hero__content--center {
-        padding: 48px 42px;
+        padding: 40px 40px;
         border-radius: 16px;
     }
 
@@ -16832,7 +16837,7 @@ img {
 @media (max-width: 992px) {
     .hero--curses {
         min-height: 450px;
-        padding: 50px 0 90px;
+        padding: 60px 0 100px;
         border-radius: 0 0 20px 20px;
     }
 
@@ -16854,7 +16859,7 @@ img {
     }
 
     .hero--curses .hero__content--center {
-        padding: 38px 32px;
+        padding: 35px 30px;
         border-radius: 14px;
         background: rgba(0, 0, 0, 0.25);
     }
@@ -18644,6 +18649,65 @@ img {
 }
 
 /* ============================================
+   RESPONSIVE - PETIT MOBILE (max-width: 576px)
+   ============================================ */
+@media (max-width: 576px) {
+    .hero--consultation {
+        margin-top: -60px;
+        padding: 70px 0 60px;
+        min-height: 320px;
+        border-radius: 0 0 12px 12px;
+    }
+
+    .hero--consultation::before {
+        height: 95% !important;
+        border-radius: 0 0 12px 12px;
+        background-size: 200% 45%;
+        background-position: center top;
+    }
+
+    .hero--consultation .hero__overlay {
+        height: 95% !important;
+        border-radius: 0 0 12px 12px;
+        background: linear-gradient(180deg, 
+            rgba(0, 0, 0, 0.40) 0%,
+            rgba(0, 0, 0, 0.45) 30%,
+            rgba(0, 0, 0, 0.60) 60%,
+            rgba(0, 0, 0, 0.75) 100%
+        );
+    }
+
+    .hero--consultation .hero__content--center {
+        top: 10px;
+        padding: 22px 18px;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.35);
+        backdrop-filter: blur(2px);
+    }
+
+    .hero--consultation .hero__title--consultation {
+        font-size: clamp(1.3rem, 2.5vw + 0.3rem, 1.8rem);
+        margin-bottom: 12px;
+    }
+
+    .hero--consultation .hero__subtitle--consultation {
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+
+    .hero--consultation .hero__divider--consultation {
+        width: 40px;
+        height: 2px;
+        margin-bottom: 15px;
+    }
+
+    .hero--consultation .hero__label {
+        font-size: 0.65rem;
+        letter-spacing: 1.5px;
+    }
+}
+
+/* ============================================
    RESPONSIVE - TRÈS PETIT MOBILE (max-width: 380px)
    ============================================ */
 @media (max-width: 380px) {
@@ -19380,7 +19444,6 @@ img {
 .section--not-alone::before {
     content: '';
     position: absolute;
-    top: -150px;
     left: -100px;
     width: 400px;
     height: 400px;
@@ -21181,9 +21244,10 @@ img {
         font-size: 0.5rem !important;
         letter-spacing: 0.5px !important;
         margin-bottom: 4px !important;
-        margin-top: 50px !important;
+        margin-top: 20px !important;
     }
 }
+
 
 
 
@@ -22180,6 +22244,37 @@ img {
     background-color: #FDD017;
     border-radius: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
