@@ -5311,7 +5311,7 @@
     background-image: url('/Laboanglais/le.site/mes-images/experts/guide-spirituel.png');
     background-size: 100% 100%;
     background-position: center top;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     z-index: 0;
     border-radius: 0 0 30px 30px;
     /* ✅ AJUSTE ICI POUR REMONTER L'IMAGE */
