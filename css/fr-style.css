@@ -1679,61 +1679,6 @@
     text-shadow: none !important;
 }
 
-.hero--guide {
-    position: relative;
-    padding: 120px 0 160px;
-    overflow: hidden;
-    min-height: 550px;
-    display: flex;
-    align-items: center;
-    border-radius: 0 0 30px 30px;
-}
-
-/* ✅ IMAGE VIA PSEUDO-ÉLÉMENT (avec margin-top) */
-.hero--guide::before {
-    content: '';
-    position: absolute;
-    bottom: 90px;
-    left: 0;
-    width: 100%;
-    height: 90%; /* ⬅️ MÊME HAUTEUR QUE L'OVERLAY */
-    background-image: url('/Laboanglais/le-site/mes-images/experts/guide-spirituel.png') !important;
-    background-size: 100% 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
-    z-index: 0;
-    border-radius: 0 0 30px 30px;
-    /* ✅ AJUSTE ICI POUR REMONTER L'IMAGE */
-    margin-top: -40px !important; /* ⬅️ Négatif = remonte */
-}
-.hero--guide {
-    position: relative;
-    padding: 120px 0 160px;
-    overflow: hidden;
-    min-height: 550px;
-    display: flex;
-    align-items: center;
-    border-radius: 0 0 30px 30px;
-}
-
-/* ✅ IMAGE VIA PSEUDO-ÉLÉMENT (avec margin-top) */
-.hero--guide::before {
-    content: '';
-    position: absolute;
-    bottom: 90px;
-    left: 0;
-    width: 100%;
-    height: 90%; /* ⬅️ MÊME HAUTEUR QUE L'OVERLAY */
-    background-image: url('/Laboanglais/le.site/mes-images/experts/guide-spirituel.png') !important;
-    background-size: 100% 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
-    z-index: 0;
-    border-radius: 0 0 30px 30px;
-    /* ✅ AJUSTE ICI POUR REMONTER L'IMAGE */
-    margin-top: -40px !important; /* ⬅️ Négatif = remonte */
-}
-
 
 
 /* ============================================
