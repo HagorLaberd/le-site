@@ -1917,120 +1917,207 @@
    SECTION PROFIL - EXPERT PAGE 🌿
    ============================================ */
 
-/* --- SECTION --- */
- .section--profile {
+.section--profile {
     background: #F0F5EE;
     padding: 60px 0;
+    margin-top: -70px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px 25px 25px 25px;
 }
 
-/* --- BLOCS --- */
- .profile__block {
+/* Décoration de fond */
+.section--profile::before {
+    content: '';
+    position: absolute;
+    top: -150px;
+    left: -150px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(253, 208, 23, 0.03) 0%, transparent 70%);
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.section--profile::after {
+    content: '';
+    position: absolute;
+    bottom: -150px;
+    right: -150px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(46, 139, 87, 0.03) 0%, transparent 70%);
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.section--profile .container-reg {
+    position: relative;
+    z-index: 1;
+}
+
+/* ============================================
+   BLOC PROFIL
+   ============================================ */
+
+.profile__block {
     display: flex;
     align-items: center;
     gap: 50px;
-    margin-bottom: 60px;
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
- .profile__block--left .profile__image {
-    order: 1;
+.profile__block:last-child {
+    border-bottom: none;
 }
 
- .profile__block--left .profile__content {
-    order: 2;
+/* ✅ AU SURVOL */
+.profile__block:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 60px rgba(253, 208, 23, 0.12);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.40);
+    padding: 40px 30px;
+    margin: 0 -15px;
 }
 
- .profile__block--right .profile__image {
-    order: 2;
+/* ============================================
+   ALTERNANCE IMAGE GAUCHE / DROITE (DESKTOP)
+   ============================================ */
+
+/* --- BLOC IMAGE À GAUCHE --- */
+.profile__block--left {
+    flex-direction: row !important;
 }
 
- .profile__block--right .profile__content {
-    order: 1;
+.profile__block--left .profile__image {
+    order: 1 !important;  /* Image à gauche */
 }
 
-/* --- IMAGE --- */
- .profile__image {
+.profile__block--left .profile__content {
+    order: 2 !important;  /* Texte à droite */
+}
+
+/* --- BLOC IMAGE À DROITE --- */
+.profile__block--right {
+    flex-direction: row !important;
+}
+
+.profile__block--right .profile__image {
+    order: 2 !important;  /* Image à droite */
+}
+
+.profile__block--right .profile__content {
+    order: 1 !important;  /* Texte à gauche */
+}
+
+/* ===== IMAGE ===== */
+.profile__image {
+    flex: 0 0 300px;
+    max-width: 300px;
+}
+
+.profile__image img {
+    width: 100% !important;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.profile__block:hover .profile__image img {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+    transform: scale(1.02);
+}
+
+/* ===== CONTENU ===== */
+.profile__content {
     flex: 1;
 }
 
- .profile__image img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    border: 3px solid #B8CFB0;
-    box-shadow: 0 8px 30px rgba(44, 74, 59, 0.15);
-    transition: all 0.3s ease;
-}
-
- .profile__image img:hover {
-    border-color: #60476e;
-    box-shadow: 0 12px 40px rgba(44, 74, 59, 0.25);
-    transform: scale(1.01);
-}
-
-/* --- CONTENU --- */
- .profile__content {
-    flex: 1;
-}
-
-/* --- BADGE --- */
- .profile__badge {
+/* ===== BADGE ===== */
+.profile__badge {
+    display: inline-block;
     color: #60476e;
-    font-size: 0.85rem;
-    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-/* --- TITRE --- */
- .profile__title {
-    color: #2C4A3B;
-    font-size: 2rem;
-    font-weight: 800;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    text-shadow: 0 4px 30px rgba(46, 139, 87, 0.10);
-}
-
-/* --- DIVISEUR --- */
- .profile__divider {
-    width: 60px;
-    height: 3px;
-    background: linear-gradient(to right, #60476e, #2C4A3B);
-    margin-bottom: 20px;
-    border-radius: 2px;
-}
-
-/* --- TEXTE --- */
- .profile__text {
-    color: #4A6B5A;
-    font-size: 1rem;
-    line-height: 1.8;
-    margin-bottom: 15px;
-}
-
-/* --- LISTE --- */
- .profile__list {
-    list-style: none;
-    padding: 0;
-    margin: 15px 0 20px;
-}
-
- .profile__list li {
-    color: #4A6B5A;
-    font-size: 1rem;
-    line-height: 1.8;
-    padding-left: 25px;
-    position: relative;
+    font-weight: 600;
     margin-bottom: 8px;
 }
 
- .profile__list li::before {
-    content: "✦";
-    color: #60476e;
+/* ===== TITRE ===== */
+.profile__title {
+    font-size: clamp(1.6rem, 2.5vw + 1rem, 2.5rem);
+    font-weight: 700;
+    color: #2C4A3B;
+    margin-bottom: 0;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #2E8B57, #3CB371);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 4px 30px rgba(46, 139, 87, 0.10);
+}
+
+/* ===== LIGNE DÉCORATIVE ===== */
+.profile__divider {
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(to right, #60476e, #2C4A3B);
+    margin: 12px 0 18px;
+    border-radius: 50px;
+    transition: width 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.profile__block:hover .profile__divider {
+    width: 70px;
+}
+
+/* ===== TEXTE ===== */
+.profile__text {
+    color: #4A6B5A;
+    font-size: clamp(0.95rem, 0.9vw + 0.3rem, 1.05rem);
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.profile__text:last-child {
+    margin-bottom: 0;
+}
+
+/* ===== LISTE ===== */
+.profile__list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.profile__list li {
+    position: relative;
+    padding-left: 25px;
+    color: #4A6B5A;
+    font-size: clamp(0.95rem, 0.9vw + 0.3rem, 1.05rem);
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
+
+.profile__list li::before {
+    content: '✦';
     position: absolute;
     left: 0;
     top: 0;
+    color: #60476e;
+    font-size: 0.8rem;
 }
+
+
 
 /* --- RESPONSIVE --- */
 @media (max-width: 992px) {
