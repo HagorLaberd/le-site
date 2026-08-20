@@ -3093,6 +3093,9 @@
     padding: 97px 77px !important; 
     
 }
+.hero--guide::before {
+    background-repeat: no-repeat;
+}
 
 /* Overlay */
  .hero--guide .hero__overlay {
