@@ -3079,164 +3079,317 @@
 
 
 
-/* =====================================================================
-   PAGE GUIDE (EXPERTS)
-   ===================================================================== */
 /* ============================================
-   GUIDE HERO - ARABE (DESKTOP)
+   HERO - TRADITIONAL SPIRITUAL GUIDE
    ============================================ */
 
-   /* Ajustement du hero */
- .hero--guide {    
-    min-height: 650px !important; 
-    top: 0;  
-    padding: 97px 77px !important; 
-    
-}
-.hero--guide::before {
-    background-repeat: no-repeat;
+.hero--guide {
+    position: relative;
+    top: -108px;
+    padding: 40px 60px;
+    overflow: hidden;
+    min-height: 670px;
+    margin-bottom: 0%;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 30px 30px;
+    background-size: cover !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
 }
 
 /* Overlay */
- .hero--guide .hero__overlay {
-    margin-top: 0px;    
+.hero--guide .hero__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, 
+        rgba(10, 10, 10, 0.35) 0%,
+        rgba(0, 0, 0, 0.25) 30%,
+        rgba(0, 0, 0, 0.35) 60%,
+        rgba(0, 0, 0, 0.55) 100%
+    );
+    z-index: 1;
+    border-radius: 0 0 30px 30px;
+    pointer-events: none;
 }
 
-/* Conteneur du contenu */
- .hero--guide .hero__container {
-    top: 10px;
-    width: 55%;
-    left: -18%;
-    position: relative !important;
-    z-index: 2 !important;
+.hero--guide .hero__container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
 }
 
- .hero--guide .hero__content--guide {
-   padding: 90px 60px !important;
-    text-align: center !important;
-    
-    
+/* ===== CONTENU CENTRÉ ===== */
+.hero--guide .hero__content--guide {
+    max-width: 800px;
+    margin: 0 auto;
+    top: 40px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.20);
+    padding: 50px 55px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 20px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.20);
 }
 
-
-/* Titre */
- .hero__title--guide {
-    color: #FFFFFF !important;
-    font-size: 3.8rem !important;
-    font-weight: 800 !important;
-    text-align: center !important;
-    margin-bottom: 20px !important;
-    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3) !important;
+/* ===== TITRE ===== */
+.hero--guide .hero__title--guide {
+    color: #FFFFFF;
+    font-size: clamp(2.5rem, 4vw + 2rem, 4.5rem);
+    font-weight: 700;
+    text-shadow: 0 0 30px rgba(46, 139, 87, 0.3), 0 4px 20px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #FFFFFF, #F5F5F5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
-/* Diviseur */
- .hero__divider--guide {
-    background: linear-gradient(90deg, #C9A84C, #1B5E20) !important;
-    height: 3px !important;
-    width: 80px !important;
-    margin: 20px auto !important;
+/* ===== LIGNE DÉCORATIVE ===== */
+.hero--guide .hero__divider--guide {
+    width: 70px;
+    height: 3px;
+    background: linear-gradient(90deg, #C9A84C, #2E8B57);
+    margin: 0 auto 25px;
+    border-radius: 50px;
+    box-shadow: 0 2px 15px rgba(253, 208, 23, 0.20);
 }
 
-/* Sous-titre */
- .hero__subtitle--guide {
+/* ===== SOUS-TITRE ===== */
+.hero--guide .hero__subtitle--guide {
     color: #C9A84C !important;
-    font-size: 1.8rem !important;
-    font-weight: 400 !important;
-    text-align: center !important;
-    letter-spacing: 2px !important;
+    font-size: clamp(1rem, 1.2vw + 0.5rem, 1.3rem);
+    line-height: 1.6;
+    font-weight: 500;
+    text-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+    letter-spacing: 1px;
 }
-
 
 /* ============================================
-   GUIDE HERO - ARABE (MOBILE)
-   ============================================ */  
+   RESPONSIVE
+   ============================================ */
+
+/* ----- TABLETTE (max-width: 1200px) ----- */
+@media (max-width: 1200px) {
+    .hero--guide {
+        padding: 100px 0 140px;
+        min-height: 500px;
+        border-radius: 0 0 25px 25px;
+        margin-bottom: 8%;
+    }
+
+    .hero--guide .hero__overlay {
+        border-radius: 0 0 25px 25px;
+    }
+
+    .hero--guide .hero__content--guide {
+        padding: 40px 45px;
+        border-radius: 16px;
+    }
+
+    .hero--guide .hero__title--guide {
+        font-size: clamp(2.2rem, 3.5vw + 1rem, 3.8rem);
+    }
+
+    .hero--guide .hero__divider--guide {
+        width: 60px;
+        height: 2.5px;
+        margin-bottom: 20px;
+    }
+
+    .hero--guide .hero__subtitle--guide {
+        font-size: clamp(0.95rem, 1.2vw + 0.4rem, 1.2rem);
+    }
+}
+
+/* ----- TABLETTE (max-width: 992px) ----- */
+@media (max-width: 992px) {
+    .hero--guide {
+        padding: 80px 0 120px;
+        min-height: 450px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .hero--guide .hero__overlay {
+        border-radius: 0 0 20px 20px;
+    }
+
+    .hero--guide .hero__content--guide {
+        padding: 35px 35px;
+        border-radius: 14px;
+        background: rgba(0, 0, 0, 0.25);
+        max-width: 700px;
+    }
+
+    .hero--guide .hero__title--guide {
+        font-size: clamp(2rem, 3vw + 1rem, 3.2rem);
+        margin-bottom: 16px;
+    }
+
+    .hero--guide .hero__divider--guide {
+        width: 55px;
+        height: 2.5px;
+        margin-bottom: 18px;
+    }
+
+    .hero--guide .hero__subtitle--guide {
+        font-size: clamp(0.9rem, 1.1vw + 0.4rem, 1.1rem);
+        letter-spacing: 0.8px;
+    }
+}
 
 /* ----- MOBILE (max-width: 768px) ----- */
 @media (max-width: 768px) {
-     .hero--guide .hero__container {
-        min-height: 260px !important;
-        margin-top:-20px !important;
-        width: 100% !important;
-        left: -11% !important;        
+    .hero--guide {
+        padding: 80px 0 100px !important;
+        min-height: 380px !important;
+        top: -130px;
+        margin-bottom: -23% !important;
+        border-radius: 0 0 25px 25px;
+        background-position: center center !important;
     }
 
-   
-    /* Overlay */
- .hero--guide .hero__overlay {
-    top: 750px !important;    
-   }
+    .hero--guide .hero__overlay {
+        top: 92px;
+        border-radius: 0 0 25px 25px;
+        background: linear-gradient(180deg, 
+            rgba(0, 0, 0, 0.30) 0%,
+            rgba(0, 0, 0, 0.35) 30%,
+            rgba(0, 0, 0, 0.50) 60%,
+            rgba(0, 0, 0, 0.65) 100%
+        );
+    }
 
-     
+    .hero--guide .hero__content--guide {
+        padding: 18px 15px;
+        border-radius: 12px;
+        background: rgba(0, 0, 0, 0.30);
+        backdrop-filter: blur(3px);
+        max-width: 80%;
+        margin: 0 auto;
+    }
 
-     .hero--guide .hero__content {
-    text-align: center !important;
-    padding: 20px !important;
-    margin-top: 0px !important;
-  }
-
-     .hero--guide .hero__title {
+    .hero--guide .hero__title--guide {
+        font-size: clamp(1.6rem, 2.5vw + 2.5rem, 2.2rem) !important;
         margin-top: 50px !important;
-        font-size: 3.9rem !important;
+        margin-bottom: 19px !important;
     }
 
-     .hero__divider--guide {
-        width: 60px !important;
-        height: 2px !important;
-        margin: 15px auto !important;
+    .hero--guide .hero__divider--guide {
+        width: 45px;
+        height: 2px;
+        margin-bottom: 25px !important;
     }
 
-     .hero__subtitle--guide {
-        font-size: 1.1rem !important;
-        letter-spacing: 1px !important;
+    .hero--guide .hero__subtitle--guide {
+        font-size: clamp(0.85rem, 1.2vw + 0.3rem, 0.95rem);
+        letter-spacing: 0.9px !important;
     }
 }
 
 /* ----- PETIT MOBILE (max-width: 576px) ----- */
 @media (max-width: 576px) {
-     .hero--guide {
-        min-height: 350px !important;
+    .hero--guide {
+        padding: 40px 0 80px;
+        min-height: 320px;
+        border-radius: 0 0 20px 20px;
     }
 
-
-     .hero__title--guide {
-        font-size: 2.9rem !important;
-        margin-bottom: 15px !important;
-        margin-top: 27px !important;
+    .hero--guide .hero__overlay {
+        border-radius: 0 0 20px 20px;
+        background: linear-gradient(180deg, 
+            rgba(0, 0, 0, 0.35) 0%,
+            rgba(0, 0, 0, 0.40) 30%,
+            rgba(0, 0, 0, 0.55) 60%,
+            rgba(0, 0, 0, 0.70) 100%
+        );
     }
 
-     .hero__divider--guide {
-        width: 50px !important;
-        height: 2px !important;
-        margin: 12px auto !important;
+    .hero--guide .hero__content {
+        top: 75px !important;
+        padding: 22px 20px;
+        left: -13%;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.35);
+        backdrop-filter: blur(2px);
+        max-width: 90%;
     }
 
-     .hero__subtitle--guide {
-        font-size: 1.4rem !important;
-        letter-spacing: 0.5px !important;
+    .hero--guide .hero__title--guide {
+        font-size: clamp(1.3rem, 2.5vw + 0.3rem, 1.8rem);
+        margin-bottom: 12px;
+    }
+
+    .hero--guide .hero__divider--guide {
+        width: 40px;
+        height: 2px;
+        margin-bottom: 12px;
+    }
+
+    .hero--guide .hero__subtitle--guide {
+        font-size: clamp(0.8rem, 1.2vw + 0.2rem, 0.85rem);
+        letter-spacing: 0.3px;
     }
 }
 
 /* ----- TRÈS PETIT MOBILE (max-width: 380px) ----- */
 @media (max-width: 380px) {
-     .hero--guide {
-        min-height: 300px !important;
+    .hero--guide {
+        padding: 30px 0 60px;
+        min-height: 280px;
+        border-radius: 0 0 10px 10px;
     }
 
-     .hero__title--guide {
-        font-size: 1.6rem !important;
-        margin-bottom: 10px !important;
+    .hero--guide .hero__overlay {
+        border-radius: 0 0 10px 10px;
+        background: linear-gradient(180deg, 
+            rgba(0, 0, 0, 0.40) 0%,
+            rgba(0, 0, 0, 0.45) 30%,
+            rgba(0, 0, 0, 0.60) 60%,
+            rgba(0, 0, 0, 0.75) 100%
+        );
     }
 
-     .hero__divider--guide {
-        width: 40px !important;
-        height: 2px !important;
-        margin: 10px auto !important;
+    .hero--guide .hero__content--guide {
+        padding: 18px 16px;
+        border-radius: 8px;
+        background: rgba(0, 0, 0, 0.40);
+        max-width: 95%;
     }
 
-     .hero__subtitle--guide {
-        font-size: 0.85rem !important;
-        letter-spacing: 0.5px !important;
+    .hero--guide .hero__title--guide {
+        font-size: clamp(1.1rem, 2vw + 0.3rem, 1.4rem);
+        margin-bottom: 10px;
     }
+
+    .hero--guide .hero__divider--guide {
+        width: 35px;
+        height: 1.5px;
+        margin-bottom: 10px;
+    }
+
+    .hero--guide .hero__subtitle--guide {
+        font-size: clamp(0.7rem, 1vw + 0.2rem, 0.75rem);
+        letter-spacing: 0.2px;
+    }
+}
+
+
+
+.section--profile {
+    padding: 60px 0;
+    margin-top: -95px; /* ⬅️ AJUSTE CETTE VALEUR POUR RÉDUIRE L'ESPACE AVEC LA SECTION PRÉCÉDENTE */
+    background: radial-gradient(ellipse at 50% 30%, #fff2e9 0%, #fff2e9 40%, #ffdecc 100%);
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px 25px 25px 25px;
 }
 
 
@@ -4010,154 +4163,297 @@
 
 
 
- /*==================================================================
-   PAGE CONTACT-US
-  ================================================================== */ 
-/* ============================================
-   CONTACT HERO - CORRECTION BACKGROUND
+ /* ============================================
+   HERO - CONTACT US PAGE
    ============================================ */
 
-/* Supprimer l'image de fond en dessous */
- .hero--contact {
-    background-image: none !important;
-    top: -95px;
-    margin-bottom: -6%;
+.hero--contact {    
+    position: relative;
+    margin-top: -11.2%;
+    padding: 100px 0 120px !important;
+    margin-bottom: -10px;
+    background-size: 100% 74%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    min-height: 750px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 30px 30px;
 }
 
-/* Garder uniquement l'image via le style inline et l'overlay */
- .hero--contact .hero__overlay {
-   margin-top: 10px !important;
-    background: rgba(0, 0, 0, 0.55) !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    z-index: 1 !important;
+
+
+/* ✅ IMAGE VIA PSEUDO-ÉLÉMENT (avec margin-top) */
+.hero--contact::before {
+    content: '';
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    height: 100%; /* ⬅️ MÊME HAUTEUR QUE L'OVERLAY */
+    background-image: url('/Laboanglais/le-site/mes-images/contact-us/contact-us.png');
+    background-size: 100% 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    z-index: 0;
+    border-radius: 0 0 30px 30px;
+    /* ✅ AJUSTE ICI POUR REMONTER L'IMAGE */
+    margin-top: -120px !important; /* ⬅️ Négatif = remonte */
 }
 
-/* S'assurer que le contenu est au-dessus de l'overlay */
- .hero--contact .hero__container {
-    width: 40%;
-    position: relative !important;
-    left: -24%;
-    top: 170px !important;
-    z-index: 2 !important;
+/* Overlay */
+.hero--contact .hero__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    z-index: 1;
+    border-radius: 0 0 30px 30px;
+    pointer-events: none;
 }
 
- .hero--contact .hero__content--center {
-    text-align: center !important;
-    padding: 90px !important;
-    top: -20px !important;
+.hero--contact .hero__container {
+    
+    position: relative;
+    z-index: 2;
+    width: 100%;
 }
 
+/* ===== CONTENU CENTRÉ ===== */
+.hero--contact .hero__content--center {
+    top: 60px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.20);
+    padding: 50px 55px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 20px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.20);
+}
+
+/* ===== TITRE ===== */
+.hero--contact .hero__title--contact {
+    color: #FFFFFF;
+    font-size: clamp(2.5rem, 4vw + 2rem, 4.5rem);
+    font-weight: 700;
+    text-shadow: 0 0 30px rgba(46, 139, 87, 0.3), 0 4px 20px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #FFFFFF, #F5F5F5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ===== LIGNE DÉCORATIVE ===== */
+.hero--contact .hero__divider--contact {
+    width: 70px;
+    height: 3px;
+    background: linear-gradient(90deg, #FDD017, #2E8B57);
+    margin: 0 auto 25px;
+    border-radius: 50px;
+    box-shadow: 0 2px 15px rgba(253, 208, 23, 0.20);
+}
+
+/* ===== SOUS-TITRE ===== */
+.hero--contact .hero__subtitle--contact {
+    color: rgba(255, 255, 255, 0.92);
+    font-size: clamp(1rem, 1.2vw + 0.5rem, 1.2rem);
+    line-height: 1.8;
+    font-weight: 400;
+    max-width: 700px;
+    margin: 0 auto;
+    text-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+}
 
 /* ============================================
-   CONTACT HERO - ARABE (MOBILE)
+   RESPONSIVE
    ============================================ */
 
-/* ----- MOBILE (max-width: 768px) ----- */
-@media (max-width: 768px) {
-.hero--contact {
-  min-height: 480px !important;       
-        background-size: 160% 75% !important;
-        margin-top: -10px;
-        margin-bottom: -21% !important;
-        background-position: center top;
-        border-radius: 0 0 16px 16px !important;
-        clip-path: inset(0 0 0 0 round 0 0 16px 16px);
-        -webkit-clip-path: inset(0 0 0 0 round 0 0 16px 16px);
+/* ----- TABLETTE (max-width: 1200px) ----- */
+@media (max-width: 1200px) {
+    .hero--contact {
+        min-height: 290px;
+        padding: 100px 0 140px;
+        background-size: 110% 60%;
+        border-radius: 0 0 25px 25px;
     }
 
     .hero--contact .hero__overlay {
-      min-height: 451px !important;
-      border-radius: 0 0 16px 16px;
-        background: rgba(0, 0, 0, 0.65) !important;
+        height: 107%;
+        border-radius: 0 0 25px 25px;
     }
 
-     .hero--contact .hero__content {
-        left: 12%;
-        top: -40px !important;    
+    .hero--contact .hero__content--center {
+        padding: 40px 40px;
+        border-radius: 16px;
     }
 
-    /* Réduire aussi la taille du titre et sous-titre si besoin */
-     .hero__title--contact {
-        font-size: 3rem !important;
-        margin-bottom: 30px !important;
-        margin-top: 50px !important;
+    .hero--contact .hero__title--contact {
+        font-size: clamp(2.2rem, 3.5vw + 1rem, 3.8rem);
+    }
+}
+
+/* ----- TABLETTE (max-width: 992px) ----- */
+@media (max-width: 992px) {
+    .hero--contact {
+        min-height: 280px;
+        padding: 80px 0 120px;
+        background-size: 130% 55%;
+        background-position: top 20% center;
+        border-radius: 0 0 20px 20px;
     }
 
-     .hero__subtitle--contact {
-        font-size: 1.0rem !important;
-        line-height: 1.5 !important;
-        margin-top: 30px;
+    .hero--contact .hero__overlay {
+        height: 97%;
+        border-radius: 0 0 20px 20px;
     }
 
-     .hero__divider--contact {
-        width: 50px !important;
-        height: 2px !important;
-        margin: 12px auto !important;
+    .hero--contact .hero__content--center {
+        padding: 35px 30px;
+        border-radius: 14px;
+        background: rgba(0, 0, 0, 0.25);
+    }
+
+    .hero--contact .hero__title--contact {
+        font-size: clamp(1.8rem, 3vw + 1rem, 2.8rem);
+    }
+
+    .hero--contact .hero__subtitle--contact {
+        font-size: 1rem;
+    }
+
+    .hero--contact .hero__divider--contact {
+        width: 55px;
+        height: 2.5px;
+    }
+}
+
+/* ----- MOBILE (max-width: 768px) ----- */
+@media (max-width: 768px) {
+    .hero--contact {
+        min-height: 270px !important;
+        padding: 80px 0 100px !important;
+        background-size: 160% 50%;
+        background-position: top 25% center;
+        border-radius: 0 0 25px 26px;
+    }
+
+    .hero--contact::before {
+        margin-top: 120px !important;  
+        margin-bottom: 40px;
+    }
+
+    .hero--contact .hero__overlay {
+        height: 103% !important;
+        border-radius: 0 0 25px 26px;
+    }
+
+    .hero--contact .hero__content--center {  
+        padding: 28px 22px; 
+        margin-top: 20px;      
+        border-radius: 12px;
+        left: -13%;
+        background: rgba(0, 0, 0, 0.30);
+        backdrop-filter: blur(3px);
+    }
+
+    .hero--contact .hero__title--contact {
+        font-size: clamp(1.6rem, 2.5vw + 0.5rem, 2.2rem);
+        margin-top: 95px;
+    }
+
+    .hero--contact .hero__subtitle--contact {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .hero--contact .hero__divider--contact {
+        width: 45px;
+        height: 2px;
+        margin-bottom: 18px;
     }
 }
 
 /* ----- PETIT MOBILE (max-width: 576px) ----- */
 @media (max-width: 576px) {
-     .hero--contact .hero__container {
-        width: 98% !important;
-        top: 50px !important;
-        padding: 8px 10px !important;
+    .hero--contact {
+        min-height: 320px;
+        padding: 40px 0 70px;
+        background-size: 200% 45%;
+        background-position: top 30% center;
+        border-radius: 0 0 20px 20px;
     }
 
-     .hero--contact .hero__content--center {
-        padding: 0 20px !important;
+    .hero--contact .hero__overlay {
+        height: 45%;
+        border-radius: 0 0 20px 20px;
     }
 
-     .hero__title--contact {
-        font-size: 3.2rem !important;
-        margin-bottom: 20px !important;
-        margin-top: 50px !important;
+    .hero--contact .hero__content--center {
+        padding: 22px 18px;
+        top: -10px !important;
+        border-radius: 10px;  
+        backdrop-filter: blur(2px);
     }
 
-     .hero__subtitle--contact {
-        font-size: 1.2rem !important;
-        margin-top: 20px !important;
+    .hero--contact .hero__title--contact {
+        font-size: clamp(2.3rem, 2.3vw + 2.3rem, 1.8rem);
+        margin-top: 25px;
     }
 
-     .hero__divider--contact {
-        width: 40px !important;
-        height: 2px !important;
-        margin: 10px auto !important;
+    .hero--contact .hero__subtitle--contact {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+    .hero--contact .hero__divider--contact {
+        width: 40px;
+        height: 2px;
+        margin-bottom: 15px;
     }
 }
 
 /* ----- TRÈS PETIT MOBILE (max-width: 380px) ----- */
 @media (max-width: 380px) {
-     .hero--contact .hero__container {
-        width: 100% !important;
-        top: 30px !important;
-        padding: 5px 8px !important;
+    .hero--contact {
+        min-height: 280px;
+        padding: 30px 0 60px;
+        background-size: 220% 40%;
+        background-position: top 35% center;
+        border-radius: 0 0 10px 10px;
     }
 
-     .hero--contact .hero__content--center {
-        padding: 0 12px !important;
+    .hero--contact .hero__overlay {
+        height: 40%;
+        border-radius: 0 0 10px 10px;
     }
 
-     .hero__title--contact {
-        font-size: 1.8rem !important;
-        margin-bottom: 15px !important;
-        margin-top: 15px !important;
+    .hero--contact .hero__content--center {
+        padding: 18px 14px;
+        border-radius: 8px; 
     }
 
-     .hero__subtitle--contact {
-        font-size: 0.8rem !important;
-        margin-top: 15px !important;
-        line-height: 1.4 !important;
+    .hero--contact .hero__title--contact {
+        font-size: clamp(1.1rem, 2vw + 0.3rem, 1.4rem);
+        margin-bottom: 10px;
     }
 
-     .hero__divider--contact {
-        width: 35px !important;
-        height: 2px !important;
-        margin: 8px auto !important;
+    .hero--contact .hero__subtitle--contact {
+        font-size: 0.8rem;
+        line-height: 1.4;
+    }
+
+    .hero--contact .hero__divider--contact {
+        width: 35px;
+        height: 1.5px;
+        margin-bottom: 12px;
     }
 }
 
