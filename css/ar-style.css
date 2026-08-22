@@ -4214,8 +4214,7 @@
     pointer-events: none;
 }
 
-.hero--contact .hero__container {
-    
+.hero--contact .hero__container { 
     position: relative;
     z-index: 2;
     width: 100%;

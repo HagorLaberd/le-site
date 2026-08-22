@@ -2543,7 +2543,7 @@
     left: 0;
     width: 100%;
     height: 100%; /* ⬅️ MÊME HAUTEUR QUE L'OVERLAY */
-    background-image: url('/Laboanglais/le.site/mes-images/contact-us/contact-us-fr.png');
+    background-image: url('/le-site/mes-images/contact-us/contact-us-fr.png');
     background-size: 100% 100%;
     background-position: center top;
     background-repeat: no-repeat;
