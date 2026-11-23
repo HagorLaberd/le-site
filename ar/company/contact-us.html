@@ -40,7 +40,7 @@
     <!-- ===== SELECTEUR LANGUES MOBILE ===== -->
 <script>
     // Chemin de base de ton site
-    var basePath = '/le-site';
+    var basePath = '';
     
     // Détecter la langue actuelle
     function getCurrentLang() {
@@ -135,7 +135,7 @@
 
     <main id="site-main" class="site-main" role="main">
    <!-- ===== HERO - PAGE CONTACT ===== -->
-   <section class="hero hero--contact" style="background-image: url('/le-site/mes-images/contact-us/contact-us-ar.png');">
+   <section class="hero hero--contact" style="background-image: url('../../mes-images/contact-us/contact-us-ar.png');">
     <div class="hero__overlay"></div>
     <div class="container-reg hero__container">
         <div class="row">
@@ -164,16 +164,16 @@
 
             <!-- ===== FORMULAIRE À GAUCHE ===== -->
             <div class="contact__form">
-                <div class="contact__form-bg" style="background-image: url('/le-site/mes-images/contact-us/contact-us-formular.png');">
+                <div class="contact__form-bg" style="background-image: url('../../mes-images/contact-us/contact-us-formular.png');">
                     <div class="contact__form-glass">
                         <h2 class="contact__form-title">اتصل بنا</h2>
                         
-                        <form action="traitement.php" method="POST">
+                        <form action="https://formspree.io/f/meaowrjp" method="POST">
                             
                             <!-- Nom complet -->
                             <div class="contact__field">
                                 <label for="nom" class="contact__label">الاسم الكامل *</label>
-                                <input type="text" id="nom" name="nom" required class="contact__input">
+                                <input type="text" id="nom" name="الاسم الكامل *" required class="contact__input">
                             </div>
                             
                             <!-- Adresse email -->
@@ -393,7 +393,7 @@
 <!-- ===== SWITCH LANGUE HEAD ===== -->
 <script>
     // Chemin de base du site (pour GitHub Pages)
-    var basePath = '/le-site';
+    var basePath = '';
     
     // Détecter la langue actuelle
     function getCurrentLang() {
