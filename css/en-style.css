@@ -5294,10 +5294,11 @@
     position: relative;
     padding: 80.5px 0 100px !important;
     overflow: hidden;
-    min-height: 500px;
+    min-height: 500px !important;
     display: flex;
     align-items: center;
     border-radius: 0 0 30px 30px;
+    margin-bottom: 10% !important;
 }
 
 /* ===== CONTENU CENTRÉ ===== */
