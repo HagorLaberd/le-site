@@ -25,7 +25,7 @@
 
 /* Bouton toggle */
 #chatbot-toggle {
-    background: #C9A84C !important;
+    background: linear-gradient(to right, #1B5E20, #60476e) !important;
     border: none !important;
     border-radius: 50% !important;
     width: 60px !important;
