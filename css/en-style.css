@@ -5292,13 +5292,13 @@
 
 .hero--guide {
     position: relative;
-    padding: 80.5px 0 100px !important;
+    padding: 90.5px 0 110px !important;
     overflow: hidden !important;
     min-height: 500px !important;
     display: flex;
     align-items: center;
     border-radius: 0 0 30px 30px;
-    margin-bottom: 4% !important;
+    margin-bottom: 2% !important;
 }
 
 /* ===== CONTENU CENTRÉ ===== */
