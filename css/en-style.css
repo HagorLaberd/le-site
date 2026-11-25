@@ -5299,6 +5299,7 @@
     align-items: center;
     border-radius: 0 0 30px 30px;
     margin-bottom: 7% !important;
+    background-repeat: no-repeat;
 }
 
 /* Overlay */
