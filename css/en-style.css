@@ -5293,7 +5293,7 @@
 .hero--guide {
     position: relative;
     padding: 80.5px 0 100px !important;
-    overflow: hidden;
+    overflow: hidden !important;
     min-height: 500px !important;
     display: flex;
     align-items: center;
