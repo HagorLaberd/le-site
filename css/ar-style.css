@@ -4169,14 +4169,14 @@
 
 .hero--contact {    
     position: relative;
-    margin-top: -15.5%;
+    margin-top: -16%;
     padding: 120px 0 140px !important;
     margin-bottom: -10px;
     background-size: 100% 74%;
     background-position: center bottom;
     background-repeat: no-repeat;
     overflow: hidden;
-    min-height: 815px !important;
+    min-height: 810px !important;
     display: flex;
     align-items: center;
     border-radius: 0 0 30px 30px;
